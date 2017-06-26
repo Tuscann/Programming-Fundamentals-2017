@@ -13,5 +13,8 @@ class Program
             secound.ToString().PadLeft(4, '0'),
             third.ToString().PadLeft(4, '0'),
             four.ToString().PadLeft(4, '0'));
+
+
+
     }
 }
