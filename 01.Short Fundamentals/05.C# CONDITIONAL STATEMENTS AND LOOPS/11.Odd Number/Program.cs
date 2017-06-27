@@ -12,11 +12,8 @@ class Program
                 Console.WriteLine("The number is: {0}", x);
                 break;
             }
-            else
-            {
-                Console.WriteLine("Please write an odd number.");
-            }
-        }
+            Console.WriteLine("Please write an odd number.");
 
+        }
     }
 }

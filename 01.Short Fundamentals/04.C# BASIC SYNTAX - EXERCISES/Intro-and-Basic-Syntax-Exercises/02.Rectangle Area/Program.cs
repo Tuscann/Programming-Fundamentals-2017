@@ -9,4 +9,3 @@ class Program
         Console.WriteLine("{0:f2}",width*height);
     }
 }
-

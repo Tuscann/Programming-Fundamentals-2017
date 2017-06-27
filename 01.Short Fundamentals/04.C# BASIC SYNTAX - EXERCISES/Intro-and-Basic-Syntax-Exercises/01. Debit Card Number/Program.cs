@@ -8,13 +8,10 @@ class Program
         int third = int.Parse(Console.ReadLine());
         int four = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("{0} {1} {2} {3}",
-            first.ToString().PadLeft(4, '0'),
+        Console.WriteLine("{0:d4} {1} {2} {3}",
+            first,
             secound.ToString().PadLeft(4, '0'),
             third.ToString().PadLeft(4, '0'),
             four.ToString().PadLeft(4, '0'));
-
-
-
     }
 }

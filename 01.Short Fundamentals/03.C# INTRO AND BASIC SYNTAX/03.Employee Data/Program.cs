@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         string name = Console.ReadLine();
         int age = int.Parse(Console.ReadLine());
@@ -12,7 +12,5 @@ class Program
         Console.WriteLine("Age: {0}",age);
         Console.WriteLine("Employee ID: {0}",employeeId.PadLeft(8,'0'));
         Console.WriteLine("Salary: {0:f2}",salary);
-
     }
 }
-
