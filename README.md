@@ -1,3 +1,3 @@
-<b>All Programming Fundamentals Exercises and 
-Programming Fundamentals Extended - Exercises  2017<b>
+<b>All Programming Fundamentals Exercises and <br>
+       Programming Fundamentals Extended - Exercises  2017<b>
 Softuni
