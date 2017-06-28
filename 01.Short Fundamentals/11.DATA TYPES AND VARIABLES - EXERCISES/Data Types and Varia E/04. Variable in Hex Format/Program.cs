@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _04.Variable_in_Hex_Format
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+        string hexademical = Console.ReadLine();
+
+        Console.WriteLine("{0}", Convert.ToInt32(hexademical, 16));
     }
 }

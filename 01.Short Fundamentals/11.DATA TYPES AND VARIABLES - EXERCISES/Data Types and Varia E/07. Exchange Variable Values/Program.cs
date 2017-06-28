@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _07.Exchange_Variable_Values
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+        int first = int.Parse(Console.ReadLine());
+        int secound = int.Parse(Console.ReadLine());
+        Console.Write("Before:\na = {0}\nb = {1}\n", first, secound);
+
+        int temp = first;
+        first = secound;
+        secound = temp;
+        Console.WriteLine("After:\na = {0}\nb = {1}\n", first, secound);
     }
 }

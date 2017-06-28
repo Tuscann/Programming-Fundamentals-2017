@@ -1,15 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _09.Reversed_chars
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+        string first = Console.ReadLine();
+        string secound = Console.ReadLine();
+        string third = Console.ReadLine();
+
+        string print = first + secound + third;
+
+        char[] charArray = print.ToCharArray();
+
+        Array.Reverse(charArray);
+
+        Console.WriteLine(charArray);
     }
 }

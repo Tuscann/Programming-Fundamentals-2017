@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _02.Practice_Floatin
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+        decimal first = decimal.Parse(Console.ReadLine());
+        double secound = double.Parse(Console.ReadLine());
+        decimal third = decimal.Parse(Console.ReadLine());
+
+        Console.WriteLine("{0}\n{1}\n{2}", first, secound, third);
     }
 }

@@ -1,15 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _05.Boolean_Variable
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        string yes = Console.ReadLine();
+
+        if (Convert.ToBoolean(yes))
         {
+            Console.WriteLine("{0}", "Yes");
+        }
+        else
+        {
+            Console.WriteLine("{0}", "No");
         }
     }
 }
