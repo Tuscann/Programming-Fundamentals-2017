@@ -20,7 +20,7 @@ class Program
                     secound_number++;
                 }
             }
-        };
+        }
     }
 }
 

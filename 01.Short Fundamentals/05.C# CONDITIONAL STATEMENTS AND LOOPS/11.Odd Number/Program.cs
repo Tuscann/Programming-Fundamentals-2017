@@ -13,7 +13,6 @@ class Program
                 break;
             }
             Console.WriteLine("Please write an odd number.");
-
         }
     }
 }
