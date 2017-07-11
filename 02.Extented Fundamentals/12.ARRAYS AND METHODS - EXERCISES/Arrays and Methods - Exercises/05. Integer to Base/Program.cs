@@ -1,17 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _05.Integer_to_Base
+class Program
 {
-    class Program
+    static string IntegerToBase(long number, int tobase)
     {
-        static void Main(string[] args)
-        {
+        string output = String.Empty;
+        output += number / tobase;
+        output += number % tobase;
 
+        return output;
+    }
+    static void Main()
+    {
+        long number = long.Parse(Console.ReadLine());
+        int toBase = int.Parse(Console.ReadLine());
 
-        }
+        Console.WriteLine(IntegerToBase(number, toBase));
     }
 }
