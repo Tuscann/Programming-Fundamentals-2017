@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.01 Day of Week", "01.01 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.02 Day of Week", "01.02 Day of Week\01.02 Day of Week.csproj", "{26DD6923-57A8-44A1-8FEB-63298EB5EF7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Reverse Array of Integers", "02. Reverse Array of Integers\02. Reverse Array of Integers.csproj", "{188CC799-5A47-4C1E-88F5-483230A295F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.00 Reverse Array of Integers", "02. Reverse Array of Integers\02.00 Reverse Array of Integers.csproj", "{188CC799-5A47-4C1E-88F5-483230A295F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.01 Reverse Array of Integers", "02.01 Reverse Array of Integers\02.01 Reverse Array of Integers.csproj", "{B19744C3-B6FD-4BB2-9DAC-E053E866EBD2}"
 EndProject
