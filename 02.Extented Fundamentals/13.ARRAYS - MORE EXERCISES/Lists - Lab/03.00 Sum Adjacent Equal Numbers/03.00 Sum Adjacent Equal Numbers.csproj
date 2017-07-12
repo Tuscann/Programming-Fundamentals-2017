@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B075690C-6A06-45E7-A894-80CB431A13A5}</ProjectGuid>
+    <ProjectGuid>{FCFCB1D8-5E0F-442B-B295-8527030B8F84}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02._00_Append_Lists</RootNamespace>
-    <AssemblyName>02.00 Append Lists</AssemblyName>
+    <RootNamespace>_03._00_Sum_Adjacent_Equal_Numbers</RootNamespace>
+    <AssemblyName>03.00 Sum Adjacent Equal Numbers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
