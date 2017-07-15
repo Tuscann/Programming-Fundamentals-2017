@@ -5,7 +5,7 @@
 ---
 The **“Programming Fundamentals”** course extends the previously gained basic coding skills from the **“Programming Basics”**course at the Software University and adds additional **knowledge** and **practical programming skills.**
 The course covers source control systems, **Git** and **GitHub** for team collaboration, understanding the basic **data types** in programming, extracting pieces of code into **methods** with parameters and return value, using the **debugger** to trace the program execution and find bugs, processing sequences of elements using **arrays** and **lists**, using  **collections**, working with matrices for processing tabular data, working with **dictionaries** to map keys to values, using **strings** for text processing, and the basics of working with **classes** and **objects**, using API classes and defining simple classes.
-## Exercises and labs.
+## <b>Short Fundamentals</b> Exercises and labs.
 1. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/01.RESOURCES" > RESOURCES </a> 
 2. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/02.COURSE%20OVERVIEW" > COURSE OVERVIEW </a> 
 3. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/03.C%23%20INTRO%20AND%20BASIC%20SYNTAX" > C# INTRO AND BASIC SYNTAX </a> 
@@ -23,22 +23,23 @@ The course covers source control systems, **Git** and **GitHub** for team collab
 15. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/15.ARRAYS"> ARRAYS </a>
 16. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/16.ARRAYS%20-%20EXERCISES"> ARRAYS - EXERCISES </a>
 17. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/17.ARRAYS%20AND%20METHODS%20-%20MORE%20EXERCISES"> ARRAYS AND METHODS - MORE EXERCISES </a>
-18. <a href=""> Dictionaries, Lambda and LINQ </a>
-20. <a href=""> Dictionaries, Lambda and LINQ </a>
-21. <a href=""> Dictionaries, Lambda and LINQ </a>
-22. <a href=""> Dictionaries, Lambda and LINQ </a>
-23. <a href=""> Dictionaries, Lambda and LINQ </a>
-24. <a href=""> Dictionaries, Lambda and LINQ </a>
-25. <a href=""> Dictionaries, Lambda and LINQ </a>
-26. <a href=""> Dictionaries, Lambda and LINQ </a>
-27. <a href=""> Dictionaries, Lambda and LINQ </a>
-28. <a href=""> Dictionaries, Lambda and LINQ </a>
-29. <a href=""> Dictionaries, Lambda and LINQ </a>
-30. <a href=""> Dictionaries, Lambda and LINQ </a>
-31. <a href=""> Dictionaries, Lambda and LINQ </a>
-32. <a href=""> Dictionaries, Lambda and LINQ </a>
-33. <a href=""> Dictionaries, Lambda and LINQ </a>
-34. <a href=""> Dictionaries, Lambda and LINQ </a>
-35. <a href=""> Dictionaries, Lambda and LINQ </a>
+18. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/18.LISTS">LISTS</a>
+19. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/19.LISTS%20-%20EXERCISES"> LISTS - EXERCISES </a>
+20. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/20.DICTIONARIES%2C%20LAMBDA%20EXPRESSIONS%20AND%20LINQ">DICTIONARIES, LAMBDA EXPRESSIONS AND LINQ</a>
+21. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/21.DICTIONARIES%2C%20LAMBDA%20EXPRESSIONS%20AND%20LINQ%20-%20EXERCISES"> DICTIONARIES, LAMBDA EXPRESSIONS AND LINQ - EXERCISES </a>
+22. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/22.DICTIONARIES%20AND%20LISTS%20-%20MORE%20EXERCISES"> DICTIONARIES AND LISTS - MORE EXERCISES </a>
+23. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/23.OBJECTS%20AND%20CLASSES"> OBJECTS AND CLASSES </a>
+24. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/24.OBJECTS%20AND%20CLASSES%20-%20EXERCISES"> OBJECTS AND CLASSES - EXERCISES </a>
+25. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/25.FILES%20AND%20EXCEPTIONS"> FILES AND EXCEPTIONS </a>
+26. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/26.FILES%20AND%20EXCEPTIONS%20-%20EXERCISES"> FILES AND EXCEPTIONS - EXERCISES </a>
+27. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/27.OBJECTS%2C%20CLASSES%2C%20FILES%20AND%20EXCEPTIONS%20-%20MORE%20EXERCISES"> OBJECTS, CLASSES, FILES AND EXCEPTIONS - MORE EXERCISES</a>
+28. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/28.STRINGS%20AND%20TEXT%20PROCESSING"> STRINGS AND TEXT PROCESSING </a>
+29. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/29.STRINGS%20AND%20TEXT%20PROCESSING%20-%20EXERCISES"> STRINGS AND TEXT PROCESSING - EXERCISES </a>
+30. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/30.REGULAR%20EXPRESSIONS%20(REGEX)%20-%20LAB"> REGULAR EXPRESSIONS (REGEX) - LAB</a>
+31. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/31.REGULAR%20EXPRESSIONS%20(REGEX)%20-%20EXERCISES"> REGULAR EXPRESSIONS (REGEX) - EXERCISES </a>
+32. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/32.STRINGS%20AND%20REGULAR%20EXPRESSIONS%20-%20MORE%20EXERCISES"> STRINGS AND REGULAR EXPRESSIONS - MORE EXERCISES</a>
+33. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/33.EXAM%20PREPARATION%20I"> EXAM PREPARATION I</a>
+34. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/34.EXAM%20PREPARATION%20II"> EXAM PREPARATION II</a>
+35. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/35.EXAM%20PREPARATION%20III"> EXAM PREPARATION III </a>
 36. <a href=""> Dictionaries, Lambda and LINQ </a>
-37. <a href=""> Dictionaries, Lambda and LINQ </a>
+37. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/37.PRACTICAL%20EXAM%20-%2009.07.2017"> PRACTICAL EXAM - 09.07.2017</a>

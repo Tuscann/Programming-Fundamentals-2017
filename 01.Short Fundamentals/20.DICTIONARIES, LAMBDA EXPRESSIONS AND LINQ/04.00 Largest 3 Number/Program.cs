@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _04._00_Largest_3_Number
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+        List<int> input = Console.ReadLine().Split().Select(a => int.Parse(a)).ToList();
+        
+        Console.WriteLine(string.Join(", ",input.OrderByDescending(x => x).Take(3)));
     }
 }

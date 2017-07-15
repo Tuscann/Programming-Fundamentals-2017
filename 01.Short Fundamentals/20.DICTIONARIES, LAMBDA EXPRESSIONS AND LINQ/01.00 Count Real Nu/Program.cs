@@ -1,15 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01._00_Count_Real_Nu
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        SortedDictionary<double, int> dict = new SortedDictionary<double, int>();
+
+        List<double> input = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
+
+        foreach (double number in input)
         {
+            if (dict.ContainsKey(number))
+            {
+                dict[number]++;
+            }
+            else
+            {
+                dict.Add(number, 1);
+            }
+        }
+        foreach (KeyValuePair<double, int> doubleNumber in dict)
+        {
+            Console.WriteLine("{0} -> {1}", doubleNumber.Key, doubleNumber.Value);
         }
     }
 }
