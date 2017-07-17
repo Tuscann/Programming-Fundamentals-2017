@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 class Program
 {
     static void Main()
     {
         var input = Console.ReadLine().Split('|').ToList();
-        var dict = new Dictionary<string, Dictionary<string, int>>();
+        var dict = new Dictionary<string, Dictionary<string, long>>();
 
         while (true)
         {
@@ -20,7 +18,7 @@ class Program
 
             if (!dict.ContainsKey(country))
             {
-                dict.Add(country, new Dictionary<string, int>());
+                dict.Add(country, new Dictionary<string, long>());
                 dict[country].Add(city, population);
             }
             if (!dict[country].ContainsKey(city))
@@ -29,15 +27,16 @@ class Program
             }
             input = Console.ReadLine().Split('|').ToList();
         }
-        dict.OrderByDescending(key => key.Value.Values.Sum());
-
-        foreach (var countryy in dict)
+        
+        foreach (var countryy in dict.OrderByDescending(x => x.Value.Sum(y => y.Value)))
         {
-            long population = 0;
-            Console.WriteLine("{0} (total population: {1})", countryy.Key, countryy.Value.Sum(d => d.Value));
-            foreach (var cityy in countryy.Value)
+            List<long> sumOfTowns = countryy.Value.Select(x => x.Value).ToList();
+
+            Console.WriteLine("{0} (total population: {1})", countryy.Key, sumOfTowns.Sum());
+
+            foreach (var cityy in countryy.Value.OrderByDescending(x => x.Value))
             {
-                Console.WriteLine("=>{0}: {1}", cityy.Key,cityy.Value);
+                Console.WriteLine("=>{0}: {1}", cityy.Key, cityy.Value);
             }
         }
     }

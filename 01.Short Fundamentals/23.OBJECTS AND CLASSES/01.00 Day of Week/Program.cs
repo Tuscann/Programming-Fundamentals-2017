@@ -10,6 +10,10 @@ namespace _01._00_Day_of_Week
     {
         static void Main(string[] args)
         {
+
+            var birthday = new { Day = 27, Month = 11, Year = 1996 };
+            Console.WriteLine(birthday.Day);
+
         }
     }
 }

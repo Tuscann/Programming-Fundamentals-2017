@@ -41,6 +41,26 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.01 User Logs", "06.01 Us
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.02 User Logs", "06.02 User Logs\06.02 User Logs.csproj", "{26346221-B467-4692-A5D7-C7563C352CCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.01 Population Counter", "07.01 Population Counter\07.01 Population Counter.csproj", "{A6622BB4-BA9E-48E7-9DFA-547EB8D00698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.02 Population Counter", "07.02 Population Counter\07.02 Population Counter.csproj", "{E8253BC1-1155-4E46-840B-4CA77E3F6472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.01 Logs Aggregator", "08.01 Logs Aggregator\08.01 Logs Aggregator.csproj", "{B7AB0DF8-0593-4B03-8568-AE25E4C00201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.02 Logs Aggregator", "08.02 Logs Aggregator\08.02 Logs Aggregator.csproj", "{F201153D-869A-4480-A4D3-938FE7CBA061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.02 Legendary Farming", "09.01 Legendary Farming\09.02 Legendary Farming.csproj", "{AD15BE85-4104-4A4F-84A3-1B24513B1213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.03 Legendary Farming", "09.03 Legendary Farming\09.03 Legendary Farming.csproj", "{C2390005-CF0E-4E9C-80ED-0C8D9043F84D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.01 Сръбско Unleshed", "10.01 Сръбско Unleshed\10.01 Сръбско Unleshed.csproj", "{F3022135-76B6-4B93-8ECA-8E3ADDEFB8DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.02 Сръбско Unleshed", "10.02 Сръбско Unleshed\10.02 Сръбско Unleshed.csproj", "{70B71842-2EEA-44AE-BAE6-D513CCE6F8D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.01 Dragon Army", "11.01 Dragon Army\11.01 Dragon Army.csproj", "{D6EEEBDC-722C-42C8-9FC9-E494CB2698F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.02 Dragon Army", "11.02 Dragon Army\11.02 Dragon Army.csproj", "{43EC8A48-8745-4B39-B263-48805767498A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +143,46 @@ Global
 		{26346221-B467-4692-A5D7-C7563C352CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26346221-B467-4692-A5D7-C7563C352CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26346221-B467-4692-A5D7-C7563C352CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6622BB4-BA9E-48E7-9DFA-547EB8D00698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6622BB4-BA9E-48E7-9DFA-547EB8D00698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6622BB4-BA9E-48E7-9DFA-547EB8D00698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6622BB4-BA9E-48E7-9DFA-547EB8D00698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8253BC1-1155-4E46-840B-4CA77E3F6472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8253BC1-1155-4E46-840B-4CA77E3F6472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8253BC1-1155-4E46-840B-4CA77E3F6472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8253BC1-1155-4E46-840B-4CA77E3F6472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AB0DF8-0593-4B03-8568-AE25E4C00201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AB0DF8-0593-4B03-8568-AE25E4C00201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AB0DF8-0593-4B03-8568-AE25E4C00201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AB0DF8-0593-4B03-8568-AE25E4C00201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F201153D-869A-4480-A4D3-938FE7CBA061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F201153D-869A-4480-A4D3-938FE7CBA061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F201153D-869A-4480-A4D3-938FE7CBA061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F201153D-869A-4480-A4D3-938FE7CBA061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD15BE85-4104-4A4F-84A3-1B24513B1213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD15BE85-4104-4A4F-84A3-1B24513B1213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD15BE85-4104-4A4F-84A3-1B24513B1213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD15BE85-4104-4A4F-84A3-1B24513B1213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2390005-CF0E-4E9C-80ED-0C8D9043F84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2390005-CF0E-4E9C-80ED-0C8D9043F84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2390005-CF0E-4E9C-80ED-0C8D9043F84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2390005-CF0E-4E9C-80ED-0C8D9043F84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3022135-76B6-4B93-8ECA-8E3ADDEFB8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3022135-76B6-4B93-8ECA-8E3ADDEFB8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3022135-76B6-4B93-8ECA-8E3ADDEFB8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3022135-76B6-4B93-8ECA-8E3ADDEFB8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B71842-2EEA-44AE-BAE6-D513CCE6F8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B71842-2EEA-44AE-BAE6-D513CCE6F8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B71842-2EEA-44AE-BAE6-D513CCE6F8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B71842-2EEA-44AE-BAE6-D513CCE6F8D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EEEBDC-722C-42C8-9FC9-E494CB2698F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EEEBDC-722C-42C8-9FC9-E494CB2698F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EEEBDC-722C-42C8-9FC9-E494CB2698F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EEEBDC-722C-42C8-9FC9-E494CB2698F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EC8A48-8745-4B39-B263-48805767498A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EC8A48-8745-4B39-B263-48805767498A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EC8A48-8745-4B39-B263-48805767498A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EC8A48-8745-4B39-B263-48805767498A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

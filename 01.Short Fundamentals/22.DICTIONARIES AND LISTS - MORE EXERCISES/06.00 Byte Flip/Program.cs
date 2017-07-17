@@ -1,15 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _06._00_Byte_Flip
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        List<string> lineOfDigits = Console.ReadLine()
+            .Split()
+            .Where(x => x.Length == 2)
+            .Reverse()
+            .ToList();
+
+        for (int i = 0; i < lineOfDigits.Count; i++)
         {
+            string reversedNum = new string(lineOfDigits[i].ToCharArray().Reverse().ToArray());
+            lineOfDigits[i] = reversedNum;
+        }
+
+        foreach (string hex in lineOfDigits)
+        {
+            int value = Convert.ToInt32(hex, 16);
+            Console.Write((char)value);
         }
     }
 }
