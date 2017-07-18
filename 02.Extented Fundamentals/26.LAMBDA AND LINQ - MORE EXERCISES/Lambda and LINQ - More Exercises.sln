@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.00 Array Data", "01.00 Array Data\01.00 Array Data.csproj", "{3ED4F24E-0DC4-48E7-942B-171B0A070AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.00 String Decryption", "02.00 String Decryption\02.00 String Decryption.csproj", "{4003189C-1BD0-442C-A624-4E876836BE28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.00 Camping", "03.00 Camping\03.00 Camping.csproj", "{3869E72E-D17E-4B52-B29D-B42E8D2CE581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.00 Most Valued Customer", "04.00 Most Valued Customer\04.00 Most Valued Customer.csproj", "{FBF5A61D-A7CA-497B-B1D1-CF5997EBC604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.00 Lambada Expressions", "05.00 Lambada Expressions\05.00 Lambada Expressions.csproj", "{79794925-ED01-4637-BC7E-F65A2DAF3E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.00 Ordered Banking System", "06.00 Ordered Banking Sys\06.00 Ordered Banking System.csproj", "{0FED61B7-6502-4948-9ABB-A9E038000416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.00 LINQuistics", "07.00 LINQuistics\07.00 LINQuistics.csproj", "{9F889B16-A6F3-447B-BA5D-D7359823147A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ED4F24E-0DC4-48E7-942B-171B0A070AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED4F24E-0DC4-48E7-942B-171B0A070AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED4F24E-0DC4-48E7-942B-171B0A070AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED4F24E-0DC4-48E7-942B-171B0A070AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4003189C-1BD0-442C-A624-4E876836BE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4003189C-1BD0-442C-A624-4E876836BE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4003189C-1BD0-442C-A624-4E876836BE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4003189C-1BD0-442C-A624-4E876836BE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3869E72E-D17E-4B52-B29D-B42E8D2CE581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3869E72E-D17E-4B52-B29D-B42E8D2CE581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3869E72E-D17E-4B52-B29D-B42E8D2CE581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3869E72E-D17E-4B52-B29D-B42E8D2CE581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF5A61D-A7CA-497B-B1D1-CF5997EBC604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF5A61D-A7CA-497B-B1D1-CF5997EBC604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF5A61D-A7CA-497B-B1D1-CF5997EBC604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF5A61D-A7CA-497B-B1D1-CF5997EBC604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79794925-ED01-4637-BC7E-F65A2DAF3E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79794925-ED01-4637-BC7E-F65A2DAF3E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79794925-ED01-4637-BC7E-F65A2DAF3E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79794925-ED01-4637-BC7E-F65A2DAF3E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FED61B7-6502-4948-9ABB-A9E038000416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FED61B7-6502-4948-9ABB-A9E038000416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FED61B7-6502-4948-9ABB-A9E038000416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FED61B7-6502-4948-9ABB-A9E038000416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F889B16-A6F3-447B-BA5D-D7359823147A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F889B16-A6F3-447B-BA5D-D7359823147A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F889B16-A6F3-447B-BA5D-D7359823147A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F889B16-A6F3-447B-BA5D-D7359823147A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
