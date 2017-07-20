@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.02 Japanese Roulette", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.02 Increasing Crisis", "05.02 Increasing Crisis\05.02 Increasing Crisis.csproj", "{6BFC378D-87E0-4065-81C4-C54CB7152B94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.01 Extremums", "06.01 Extremums\06.01 Extremums.csproj", "{91513E4C-35B8-4347-8232-400A09676DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.02 Extremums", "06.02 Extremums\06.02 Extremums.csproj", "{F6EE210A-B461-4988-8973-53839B06D838}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{6BFC378D-87E0-4065-81C4-C54CB7152B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BFC378D-87E0-4065-81C4-C54CB7152B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BFC378D-87E0-4065-81C4-C54CB7152B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91513E4C-35B8-4347-8232-400A09676DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91513E4C-35B8-4347-8232-400A09676DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91513E4C-35B8-4347-8232-400A09676DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91513E4C-35B8-4347-8232-400A09676DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EE210A-B461-4988-8973-53839B06D838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EE210A-B461-4988-8973-53839B06D838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EE210A-B461-4988-8973-53839B06D838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EE210A-B461-4988-8973-53839B06D838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

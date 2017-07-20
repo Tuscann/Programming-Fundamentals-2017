@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.01 Winecraft", "06.01 Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.00 Winecraft", "06.02 Winecraft\06.00 Winecraft.csproj", "{85B2DF13-2C05-4AB9-A743-91F503489823}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{5B1880E9-E4D1-4501-A80E-15F06DC9EED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.04 Winecraft", "06.04 Winecraft\06.04 Winecraft.csproj", "{2679141A-27E5-4B62-8135-13BAEF42CE74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{85B2DF13-2C05-4AB9-A743-91F503489823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85B2DF13-2C05-4AB9-A743-91F503489823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85B2DF13-2C05-4AB9-A743-91F503489823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1880E9-E4D1-4501-A80E-15F06DC9EED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1880E9-E4D1-4501-A80E-15F06DC9EED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1880E9-E4D1-4501-A80E-15F06DC9EED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1880E9-E4D1-4501-A80E-15F06DC9EED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2679141A-27E5-4B62-8135-13BAEF42CE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2679141A-27E5-4B62-8135-13BAEF42CE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2679141A-27E5-4B62-8135-13BAEF42CE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2679141A-27E5-4B62-8135-13BAEF42CE74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

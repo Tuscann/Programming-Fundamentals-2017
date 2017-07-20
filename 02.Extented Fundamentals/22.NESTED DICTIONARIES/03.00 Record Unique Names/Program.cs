@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03._00_Record_Unique_Names
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        int n = int.Parse(Console.ReadLine());
+        List<string> list = new List<string>();
+
+        for (int i = 0; i < n; i++)
         {
+            string curent = Console.ReadLine();
+            list.Add(curent);
         }
+        Console.WriteLine("{0}", string.Join("\n", list.Distinct()));
     }
 }

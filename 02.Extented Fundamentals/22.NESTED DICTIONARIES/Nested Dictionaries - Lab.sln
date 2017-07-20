@@ -9,7 +9,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.00 Cities by Continent a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.00 Record Unique Names", "03.00 Record Unique Names\03.00 Record Unique Names.csproj", "{9FB71A85-01DA-40E8-AB70-CA6F8C30FE3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.00 Group Continents, Countries and Cities", "04.00 Group Continents, Countries\04.00 Group Continents, Countries and Cities.csproj", "{D6131F77-FDF6-4C7D-8024-C548ED62EF0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01 Group Continents, Countries and Cities", "04.00 Group Continents, Countries\04.01 Group Continents, Countries and Cities.csproj", "{D6131F77-FDF6-4C7D-8024-C548ED62EF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.01 Average Student Grades", "01.01 Average Student Grades\01.01 Average Student Grades.csproj", "{DF3AB2EC-B80A-43C5-A138-DB0B2BFFDFE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.01 Cities by Continent and Country", "02.01 Cities by Continent and Country\02.01 Cities by Continent and Country.csproj", "{2818544C-94CC-4CCA-B1E4-F72190069C4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01 Record Unique Names", "03.01 Record Unique Names\03.01 Record Unique Names.csproj", "{D581834C-9A0F-4C80-A524-B762F8B56AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.02 Average Student Grades", "01.02 Average Student Grades\01.02 Average Student Grades.csproj", "{158BE7E7-582D-443B-91EF-AEA565C915C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.02 Cities by Continent and Country", "02.02 Cities by Continent and Country\02.02 Cities by Continent and Country.csproj", "{66BCE59E-77F5-4040-A9BF-A72A3C6FE4CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.00 Group Continents, Countries and Cities", "04.00 Group Continents, Countries and Cities\04.00 Group Continents, Countries and Cities.csproj", "{C65B60AA-1C8D-4D95-B429-E46D1A543A8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +45,30 @@ Global
 		{D6131F77-FDF6-4C7D-8024-C548ED62EF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6131F77-FDF6-4C7D-8024-C548ED62EF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6131F77-FDF6-4C7D-8024-C548ED62EF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3AB2EC-B80A-43C5-A138-DB0B2BFFDFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3AB2EC-B80A-43C5-A138-DB0B2BFFDFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3AB2EC-B80A-43C5-A138-DB0B2BFFDFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3AB2EC-B80A-43C5-A138-DB0B2BFFDFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2818544C-94CC-4CCA-B1E4-F72190069C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2818544C-94CC-4CCA-B1E4-F72190069C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2818544C-94CC-4CCA-B1E4-F72190069C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2818544C-94CC-4CCA-B1E4-F72190069C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D581834C-9A0F-4C80-A524-B762F8B56AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D581834C-9A0F-4C80-A524-B762F8B56AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D581834C-9A0F-4C80-A524-B762F8B56AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D581834C-9A0F-4C80-A524-B762F8B56AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158BE7E7-582D-443B-91EF-AEA565C915C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158BE7E7-582D-443B-91EF-AEA565C915C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158BE7E7-582D-443B-91EF-AEA565C915C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158BE7E7-582D-443B-91EF-AEA565C915C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BCE59E-77F5-4040-A9BF-A72A3C6FE4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BCE59E-77F5-4040-A9BF-A72A3C6FE4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BCE59E-77F5-4040-A9BF-A72A3C6FE4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BCE59E-77F5-4040-A9BF-A72A3C6FE4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65B60AA-1C8D-4D95-B429-E46D1A543A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65B60AA-1C8D-4D95-B429-E46D1A543A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65B60AA-1C8D-4D95-B429-E46D1A543A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65B60AA-1C8D-4D95-B429-E46D1A543A8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
