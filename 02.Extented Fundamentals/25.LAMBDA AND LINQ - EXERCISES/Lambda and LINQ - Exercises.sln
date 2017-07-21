@@ -19,6 +19,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.01 Default Values", "02.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.02 Default Values", "02.02 Default Values\02.02 Default Values.csproj", "{F462784D-5977-45D5-8B73-08F4E33FBF60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01 Shopping Spree", "03.01 Shopping Spree\03.01 Shopping Spree.csproj", "{94F729C2-5E90-4EDB-9992-A52D0660D983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01 SoftUni Beer Pong", "04.01 SoftUni Beer Pong\04.01 SoftUni Beer Pong.csproj", "{98813B23-04DE-4014-8654-AD2A81A8BFEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.01 Flatten Dictionary", "05.01 Flatten Dictionary\05.01 Flatten Dictionary.csproj", "{C4955973-6C30-41A8-A7AA-4906D1DC2890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.02 Flatten Dictionary", "05.02 Flatten Dictionary\05.02 Flatten Dictionary.csproj", "{5A5285AA-AFED-4E8E-A083-7E12D3263F93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.03 Flatten Dictionary", "05.03 Flatten Dictionary\05.03 Flatten Dictionary.csproj", "{89AB6CDF-35F4-4372-BE16-068FAF7F327A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +67,26 @@ Global
 		{F462784D-5977-45D5-8B73-08F4E33FBF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F462784D-5977-45D5-8B73-08F4E33FBF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F462784D-5977-45D5-8B73-08F4E33FBF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F729C2-5E90-4EDB-9992-A52D0660D983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F729C2-5E90-4EDB-9992-A52D0660D983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F729C2-5E90-4EDB-9992-A52D0660D983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F729C2-5E90-4EDB-9992-A52D0660D983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98813B23-04DE-4014-8654-AD2A81A8BFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98813B23-04DE-4014-8654-AD2A81A8BFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98813B23-04DE-4014-8654-AD2A81A8BFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98813B23-04DE-4014-8654-AD2A81A8BFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4955973-6C30-41A8-A7AA-4906D1DC2890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4955973-6C30-41A8-A7AA-4906D1DC2890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4955973-6C30-41A8-A7AA-4906D1DC2890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4955973-6C30-41A8-A7AA-4906D1DC2890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5285AA-AFED-4E8E-A083-7E12D3263F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5285AA-AFED-4E8E-A083-7E12D3263F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5285AA-AFED-4E8E-A083-7E12D3263F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5285AA-AFED-4E8E-A083-7E12D3263F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AB6CDF-35F4-4372-BE16-068FAF7F327A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AB6CDF-35F4-4372-BE16-068FAF7F327A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AB6CDF-35F4-4372-BE16-068FAF7F327A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AB6CDF-35F4-4372-BE16-068FAF7F327A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

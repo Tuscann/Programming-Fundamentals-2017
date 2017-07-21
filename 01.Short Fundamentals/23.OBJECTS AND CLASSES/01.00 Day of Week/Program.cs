@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01._00_Day_of_Week
+using System.Globalization;
+class Program
 {
-    class Program
+    static void Main()  // 80/100
     {
-        static void Main(string[] args)
-        {
+        string dateAsText = Console.ReadLine();
+        DateTime date = DateTime.ParseExact(
+            dateAsText, "d-M-yyyy",
+            CultureInfo.InvariantCulture);
+        Console.WriteLine(date.DayOfWeek);
 
-            var birthday = new { Day = 27, Month = 11, Year = 1996 };
-            Console.WriteLine(birthday.Day);
-
-        }
     }
 }

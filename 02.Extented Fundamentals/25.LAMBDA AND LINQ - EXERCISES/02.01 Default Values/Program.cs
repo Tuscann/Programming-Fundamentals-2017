@@ -5,16 +5,16 @@ public class DefaultValues
 {
     public static void Main()
     {
-        var inputLine = Console.ReadLine();
+        string inputLine = Console.ReadLine();
 
-        var defaultValues = new Dictionary<string, string>();
+        Dictionary<string, string> defaultValues = new Dictionary<string, string>();
 
         while (inputLine != "end")
         {
-            var tokens = inputLine.Split(" ->".ToCharArray(),StringSplitOptions.RemoveEmptyEntries);
+            string[] tokens = inputLine.Split(" ->".ToCharArray(),StringSplitOptions.RemoveEmptyEntries);
 
-            var key = tokens[0];
-            var value = tokens[1];
+            string key = tokens[0];
+            string value = tokens[1];
 
             defaultValues[key] = value;
 
@@ -23,20 +23,20 @@ public class DefaultValues
 
         inputLine = Console.ReadLine();
 
-        var originalValues = defaultValues
+        Dictionary<string, string> originalValues = defaultValues
             .Where(x => x.Value != "null")
             .OrderByDescending(x => x.Value.Length)
             .ToDictionary(x => x.Key, x => x.Value);
 
-        var changedValues = defaultValues
+        Dictionary<string, string> changedValues = defaultValues
             .Where(x => x.Value == "null")
             .ToDictionary(x => x.Key, x => inputLine);
         
-        var result = originalValues
+        Dictionary<string, string> result = originalValues
             .Concat(changedValues)
             .ToDictionary(x => x.Key, x => x.Value);
 
-        foreach (var kvp in result)
+        foreach (KeyValuePair<string, string> kvp in result)
         {
             Console.WriteLine($"{kvp.Key} <-> {kvp.Value}");
         }

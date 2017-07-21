@@ -31,7 +31,7 @@ class Program
                 .OrderByDescending(x => x.Value)
                 .ToDictionary(x => x.Key, x => x.Value);
 
-        foreach (var kvp in orderedUsernames)
+        foreach (KeyValuePair<string, DateTime> kvp in orderedUsernames)
         {
             Console.WriteLine(kvp.Key);
         }

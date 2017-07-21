@@ -7,7 +7,7 @@
     <ProjectGuid>{94F729C2-5E90-4EDB-9992-A52D0660D983}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_03._01_Shopping_Spree</RootNamespace>
-    <AssemblyName>_03._01_Shopping_Spree</AssemblyName>
+    <AssemblyName>03.01 Shopping Spree</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

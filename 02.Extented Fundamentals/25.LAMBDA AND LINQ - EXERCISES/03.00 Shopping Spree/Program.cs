@@ -7,7 +7,7 @@ class Program
     {
         decimal budjet = decimal.Parse(Console.ReadLine());
 
-        var dic = new Dictionary<string, decimal>();
+        Dictionary<string, decimal> dic = new Dictionary<string, decimal>();
 
 
         while (true)
@@ -17,7 +17,7 @@ class Program
             {
                 break;
             }
-            var current = x.Split();
+            string[] current = x.Split();
 
             string productName = current[0];
             decimal price = decimal.Parse(current[1]);
@@ -39,7 +39,7 @@ class Program
 
         if (budjet >= dic.Values.Sum())
         {
-            foreach (var product in dic)
+            foreach (KeyValuePair<string, decimal> product in dic)
             {
                 Console.WriteLine("{0} costs {1:f2}", product.Key, product.Value);
             }

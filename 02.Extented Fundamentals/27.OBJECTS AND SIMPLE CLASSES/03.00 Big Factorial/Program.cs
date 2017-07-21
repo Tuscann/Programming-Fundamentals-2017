@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03._00_Big_Factorial
+using System.Numerics;
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        BigInteger factorel = 1;
+        int n = int.Parse(Console.ReadLine());
+
+        for (int i = 1; i <= n; i++)
         {
+            factorel *= i;
         }
+        Console.WriteLine(factorel);
     }
 }
