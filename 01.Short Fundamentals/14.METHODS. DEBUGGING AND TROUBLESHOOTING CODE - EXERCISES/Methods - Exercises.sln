@@ -3,41 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Hello, Name!", "Methods - Exercises\01. Hello, Name!.csproj", "{FFA81E48-2CDD-4680-92E0-C192C5DD8808}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.00 Hello, Name!", "Methods - Exercises\01.00 Hello, Name!.csproj", "{FFA81E48-2CDD-4680-92E0-C192C5DD8808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Max Method", "02.Max Method\02.Max Method.csproj", "{5FEC3937-D09A-405F-9E22-E085B070C65A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.00 Max Method", "02.Max Method\02.00 Max Method.csproj", "{5FEC3937-D09A-405F-9E22-E085B070C65A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.00 English Name of Last Digit", "03. English Name of Last\03.00 English Name of Last Digit.csproj", "{F4F428F2-A5E7-43E6-933E-557250F85684}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Numbers in Reversed Order", "04. Numbers in Reve\04. Numbers in Reversed Order.csproj", "{5CD4AA82-F8DA-4A09-9CF8-CBEC5A461447}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.00 Numbers in Reversed Order", "04. Numbers in Reve\04.00 Numbers in Reversed Order.csproj", "{5CD4AA82-F8DA-4A09-9CF8-CBEC5A461447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Fibonacci Numbers", "05. Fibonacci Numbers\05. Fibonacci Numbers.csproj", "{04F15BE1-7BC4-4833-A250-FCFC1AB04674}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.00 Fibonacci Numbers", "05. Fibonacci Numbers\05.00 Fibonacci Numbers.csproj", "{04F15BE1-7BC4-4833-A250-FCFC1AB04674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Prime Checker", "06. Prime Checker\06. Prime Checker.csproj", "{7AFD43B5-F7F0-41DE-AD4D-7E7BF70BD84D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.00 Prime Checker", "06. Prime Checker\06.00 Prime Checker.csproj", "{7AFD43B5-F7F0-41DE-AD4D-7E7BF70BD84D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Primes in Given Range", "07. Primes in Given Ran\07. Primes in Given Range.csproj", "{785D58E0-F0C5-40B0-A5A8-0760C0D399AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.00 Primes in Given Range", "07. Primes in Given Ran\07.00 Primes in Given Range.csproj", "{785D58E0-F0C5-40B0-A5A8-0760C0D399AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Center Point", "08. Center Point\08. Center Point.csproj", "{1BEAD94A-CD96-47A3-989E-816921EDE021}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.00 Center Point", "08. Center Point\08.00 Center Point.csproj", "{1BEAD94A-CD96-47A3-989E-816921EDE021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Longer Line", "09. Longer Line\09. Longer Line.csproj", "{AA8D59FA-1C15-4AA3-AE17-15240A980CAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.00 Longer Line", "09. Longer Line\09.00 Longer Line.csproj", "{AA8D59FA-1C15-4AA3-AE17-15240A980CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Cube Properties", "10. Cube Properties\10. Cube Properties.csproj", "{F4325F9D-F2F6-4EA8-BD44-5085F53D5CB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.00 Cube Properties", "10. Cube Properties\10.00 Cube Properties.csproj", "{F4325F9D-F2F6-4EA8-BD44-5085F53D5CB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Geometry Calculator", "11. Geometry Calculator\11. Geometry Calculator.csproj", "{F541BB9A-CCB3-487E-8E3D-DDE836CCD340}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.00 Geometry Calculator", "11. Geometry Calculator\11.00 Geometry Calculator.csproj", "{F541BB9A-CCB3-487E-8E3D-DDE836CCD340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Master Number", "12. Master Number\12. Master Number.csproj", "{D4525A37-9519-4D1F-B1E0-CCB2C5830B96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.00 Master Number", "12. Master Number\12.00 Master Number.csproj", "{D4525A37-9519-4D1F-B1E0-CCB2C5830B96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Factorial", "13. Factorial\13. Factorial.csproj", "{B4730FEF-E2D6-43A4-9D11-2650DD9FB6C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.00 Factorial", "13. Factorial\13.00 Factorial.csproj", "{B4730FEF-E2D6-43A4-9D11-2650DD9FB6C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Factorial Trailing Zeroes", "14. Factorial Trailing Z\14. Factorial Trailing Zeroes.csproj", "{1A320C5F-B27E-467F-A251-D917261FC656}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.00 Factorial Trailing Zeroes", "14. Factorial Trailing Z\14.00 Factorial Trailing Zeroes.csproj", "{1A320C5F-B27E-467F-A251-D917261FC656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Substring", "15. Substring\15. Substring.csproj", "{3812768D-6C19-42EB-9742-031DCC96C0F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.00 Substring", "15. Substring\15.00 Substring.csproj", "{3812768D-6C19-42EB-9742-031DCC96C0F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Instruction Set", "16. Instruction Set\16. Instruction Set.csproj", "{E0E3B643-D3F6-43C7-9624-D1971A8858A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.00 Instruction Set", "16. Instruction Set\16.00 Instruction Set.csproj", "{E0E3B643-D3F6-43C7-9624-D1971A8858A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Be Positive", "17. Be Positive\17. Be Positive.csproj", "{BB10E3D7-7753-4831-9C52-8C6528E27DF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.00 Be Positive", "17. Be Positive\17.00 Be Positive.csproj", "{BB10E3D7-7753-4831-9C52-8C6528E27DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Sequence of Commands", "18. Sequence of Commands\18. Sequence of Commands.csproj", "{99372B55-062F-491F-9A1E-8C811DFDC361}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.00 Sequence of Commands", "18. Sequence of Commands\18.00 Sequence of Commands.csproj", "{99372B55-062F-491F-9A1E-8C811DFDC361}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01 English Name of Last Digit", "03.01 English Name of Last Digit\03.01 English Name of Last Digit.csproj", "{8EB1C9A9-B549-40D0-AA73-91AB30B13F22}"
 EndProject

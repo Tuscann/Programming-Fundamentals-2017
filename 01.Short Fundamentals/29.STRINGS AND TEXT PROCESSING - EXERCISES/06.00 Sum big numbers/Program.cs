@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _06._00_Sum_big_numbers
+using System.Numerics;
+class Program
 {
-    class Program
+    static void Main()  // 100/100
     {
-        static void Main(string[] args)
-        {
-        }
+        BigInteger first = BigInteger.Parse(Console.ReadLine());
+        BigInteger second = BigInteger.Parse(Console.ReadLine());
+
+        Console.WriteLine("{0}", first + second);
     }
 }

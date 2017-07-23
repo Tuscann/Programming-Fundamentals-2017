@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01._00_Reverse_String
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        string input = Console.ReadLine();
+        string print = String.Empty;
+        for (int i = input.Length - 1; i >= 0; i--)
         {
+            print += input[i];
         }
+        Console.WriteLine(print);
     }
 }

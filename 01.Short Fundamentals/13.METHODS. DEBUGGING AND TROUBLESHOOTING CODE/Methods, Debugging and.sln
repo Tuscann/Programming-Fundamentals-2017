@@ -19,11 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Math Power", "07. Math 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Greater of Two Values", "08. Greater of Two Values\08. Greater of Two Values.csproj", "{A76C7A3A-141A-475F-9DFB-D375F2A7B28B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Multiply Evens by Odds", "09. Multiply Evens by Odds\09. Multiply Evens by Odds.csproj", "{4A48C07A-D1DC-4B76-9F43-4F46BC4A8FDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.00 Multiply Evens by Odds", "09. Multiply Evens by Odds\09.00 Multiply Evens by Odds.csproj", "{4A48C07A-D1DC-4B76-9F43-4F46BC4A8FDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Holidays Between Two Da", "10. Holidays Between Two Da\10. Holidays Between Two Da.csproj", "{BF323076-8B0F-4590-AF2A-46EB9D37D32F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.00 Holidays Between Two Da", "10. Holidays Between Two Da\10.00 Holidays Between Two Da.csproj", "{BF323076-8B0F-4590-AF2A-46EB9D37D32F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Price Change Alert", "11. Price Change Alert\11. Price Change Alert.csproj", "{D4C34345-E80F-4E58-965A-EF97C7D11520}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.00 Price Change Alert", "11. Price Change Alert\11.00 Price Change Alert.csproj", "{D4C34345-E80F-4E58-965A-EF97C7D11520}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01 Printing Triangle", "03.01 Printing Triangle\03.01 Printing Triangle.csproj", "{0C6E64DC-570E-420B-B0DE-F57BBCA45B4C}"
 EndProject

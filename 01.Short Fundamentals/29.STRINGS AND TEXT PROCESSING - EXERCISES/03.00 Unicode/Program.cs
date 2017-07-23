@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03._00_Unicode
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        var input = Console.ReadLine().ToCharArray();
+
+        foreach (var charr in input)
         {
+            Console.Write("\\u{0}", ((int)charr).ToString("x4"));
         }
     }
 }
