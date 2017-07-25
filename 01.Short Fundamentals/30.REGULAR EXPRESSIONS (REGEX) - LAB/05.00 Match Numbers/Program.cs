@@ -1,15 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _05._00_Match_Numbers
+using System.Text.RegularExpressions;
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        string pattern = @"(^|(?<=\s))-?\d+(\.\d+)?($|(?=\s))";
+        
+        string input = Console.ReadLine();
+        MatchCollection datesMatches = Regex.Matches(input, pattern);
+
+        foreach (Match date in datesMatches)
         {
+            Console.Write(date + " ");
         }
     }
 }

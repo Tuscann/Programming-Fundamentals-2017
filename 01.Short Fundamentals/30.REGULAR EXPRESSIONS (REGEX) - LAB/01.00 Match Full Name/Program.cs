@@ -1,15 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01._00_Match_Full_Name
+using System.Text.RegularExpressions;
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        string pattern = @"\b[A-Z]{1}[a-z]{1,} [A-Z]{1}[a-z]{1,}\b";
+
+        string input = Console.ReadLine();
+
+        MatchCollection matchNames = Regex.Matches(input, pattern);
+
+        foreach (var match in matchNames)
         {
+            Console.Write(match + " ");
         }
+        Console.WriteLine();
     }
 }

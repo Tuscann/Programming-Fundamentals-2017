@@ -10,6 +10,10 @@ namespace _02._00_Word_Encounter
     {
         static void Main(string[] args)
         {
+
+            string input = Console.ReadLine();
+
+            Console.WriteLine("No fish found.");
         }
     }
 }
