@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01._00_Censorship
+using System.Text.RegularExpressions;
+class Program
 {
-    class Program
+    static void Main() //100/100
     {
-        static void Main(string[] args)
-        {
-        }
+        string word = Console.ReadLine();
+        string sentence = Console.ReadLine();
+
+        string solution = Regex.Replace(sentence, $@"{word}", new string('*', word.Length));
+        Console.WriteLine(solution);
     }
 }

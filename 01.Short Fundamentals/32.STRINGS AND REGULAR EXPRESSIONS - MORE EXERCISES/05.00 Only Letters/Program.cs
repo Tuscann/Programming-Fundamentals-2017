@@ -1,15 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _05._00_Only_Letters
+class Program
 {
-    class Program
+    static void Main() // 66/100
     {
-        static void Main(string[] args)
+        char[] input = Console.ReadLine().ToCharArray();
+
+        string output = String.Empty;
+        int counter = 0;
+
+        for (int i = 0; i < input.Length; i++)
         {
+            bool digit = char.IsDigit(input[i]);
+            
+            if (!digit && counter != 0)
+            {
+                output += input[i];
+                output += input[i];
+                counter = 0;
+                continue;
+            }
+            if (!digit)
+            {
+                output += input[i];
+                continue;
+
+            }
+            counter++;
+
         }
+        Console.WriteLine("{0}",string.Join("", output));
     }
 }

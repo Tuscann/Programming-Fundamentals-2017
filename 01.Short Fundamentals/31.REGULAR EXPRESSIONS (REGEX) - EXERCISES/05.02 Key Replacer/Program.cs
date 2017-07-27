@@ -3,13 +3,10 @@ using System.Text;
 using System.Text.RegularExpressions;
 class Program
 {
-    static void Main()
+    static void Main()  // 100/100
     {
         Regex split = new Regex(@"([a-zA-Z]*)(?:\<|\||\\)(?:.+)(?:\<|\||\\)(\w+)");
-
-        // @"^([a-zA-Z]*)(?<endKey>[a-zA-Z]*)$";
-
-
+        
         string firstInput = Console.ReadLine();
         string secondInput = Console.ReadLine();
 
@@ -31,21 +28,20 @@ class Program
         for (int i = 0; i < secondInput.Length; i++)
         {
             int firstOccasion = secondInput.IndexOf(start, indexerStart);
+            if (firstOccasion == -1)
+            {
+                break;
+            }
             int secondOccasion = secondInput.IndexOf(end, indexerEnd);
 
             if (firstOccasion != -1 && secondOccasion != -1)
             {
-                solution.Append(secondInput,firstOccasion + start.Length,secondOccasion - firstOccasion + start.Length);
+                solution.Append(secondInput, firstOccasion + start.Length, secondOccasion - firstOccasion - start.Length);
 
-                i = firstOccasion;
-                indexerStart = firstOccasion + 1;
-                indexerEnd = secondOccasion + 1;
-            } 
-            //e tui ako proraboti si reja tashacite
-            else
-            {
-                break;
+                indexerStart = secondOccasion + end.Length;
+                indexerEnd = indexerStart + 1;
             }
+            //e tui ako proraboti si reja tashacite
         }
         if (solution.Length > 0)
         {
