@@ -16,11 +16,9 @@ public class Morse_Code_Upgraded
 
         foreach (var messageLetter in messageLetters)
         {
-            var zeroesCount = messageLetter
-                .Count(x => x == '0');
+            var zeroesCount = messageLetter.Count(x => x == '0');
 
-            var onesCount = messageLetter
-                .Count(x => x == '1');
+            var onesCount = messageLetter.Count(x => x == '1');
 
             var currentSum = zeroesCount * 3 + onesCount * 5;
 

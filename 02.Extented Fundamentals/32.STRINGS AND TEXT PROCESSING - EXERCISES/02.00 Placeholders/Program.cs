@@ -10,6 +10,8 @@ namespace _02._00_Placeholders
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }
