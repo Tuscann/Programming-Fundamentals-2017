@@ -1,15 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03._00_Match_Hexadecimal_Numb
+using System.Text.RegularExpressions;
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+        string pattern = @"\b(?:0x)?[0-9A-F]+\b";
+        string input = Console.ReadLine();
+
+        MatchCollection numbersString = Regex.Matches(input, pattern);
+
+        string[] matchesNumbers = numbersString.Cast<Match>().Select(a => a.Value).ToArray();
+
+        Console.WriteLine("{0}", string.Join(" ", matchesNumbers));
     }
 }

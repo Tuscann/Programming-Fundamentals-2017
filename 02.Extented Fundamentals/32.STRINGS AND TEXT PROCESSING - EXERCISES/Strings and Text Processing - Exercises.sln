@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.00 Sentence Split", "06.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. 00 Capitalize Words", "07. 00 Capitalize W\07. 00 Capitalize Words.csproj", "{FFB31A4D-9A81-4A51-949C-A2A5AA8F8150}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. 01 Capitalize Words", "07. 01 Capitalize Words\07. 01 Capitalize Words.csproj", "{CE3FF9B1-EED6-421F-9567-EE48E42D41E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. 02 Capitalize Words", "07. 02 Capitalize Words\07. 02 Capitalize Words.csproj", "{CC59F0EE-9298-4B8B-B428-A010E1E6A67A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. 03 Capitalize Words", "07. 03 Capitalize Words\07. 03 Capitalize Words.csproj", "{FF4825BE-D9D2-46A7-B7FF-E755BA20A7BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +57,18 @@ Global
 		{FFB31A4D-9A81-4A51-949C-A2A5AA8F8150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB31A4D-9A81-4A51-949C-A2A5AA8F8150}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB31A4D-9A81-4A51-949C-A2A5AA8F8150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3FF9B1-EED6-421F-9567-EE48E42D41E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3FF9B1-EED6-421F-9567-EE48E42D41E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3FF9B1-EED6-421F-9567-EE48E42D41E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3FF9B1-EED6-421F-9567-EE48E42D41E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC59F0EE-9298-4B8B-B428-A010E1E6A67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC59F0EE-9298-4B8B-B428-A010E1E6A67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC59F0EE-9298-4B8B-B428-A010E1E6A67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC59F0EE-9298-4B8B-B428-A010E1E6A67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4825BE-D9D2-46A7-B7FF-E755BA20A7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4825BE-D9D2-46A7-B7FF-E755BA20A7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4825BE-D9D2-46A7-B7FF-E755BA20A7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4825BE-D9D2-46A7-B7FF-E755BA20A7BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
