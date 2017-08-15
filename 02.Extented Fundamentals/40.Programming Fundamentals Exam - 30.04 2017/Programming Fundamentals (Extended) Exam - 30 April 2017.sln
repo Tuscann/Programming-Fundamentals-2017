@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.00 Wormtest", "01.00 Wormtest\01.00 Wormtest.csproj", "{8CC256CA-8BB9-44CF-B24A-35E3317548DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.00 Worm Ipsum", "02.00 Worm Ipsum\02.00 Worm Ipsum.csproj", "{A5CD4971-AA4A-45A9-9D32-B36ED41955BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.01 Worm Ipsum", "02.01 Worm Ipsum\02.01 Worm Ipsum.csproj", "{08F770BA-3A3E-4A1E-89C9-8937BBC0A726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.02 Worm Ipsum", "02.02 Worm Ipsum\02.02 Worm Ipsum.csproj", "{D7C0FB5E-9C4B-416B-B8F4-A97031C72305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.00 Wormhole", "03.00 Wormhole\03.00 Wormhole.csproj", "{EC32076C-F9F0-4123-9522-836B557378D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.00 Worms World Party", "04.00 Worms World Party\04.00 Worms World Party.csproj", "{FDC6AB42-0B8B-4BCF-8F7F-0DB49846370A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01 Worms World Party", "04.01 Worms World Party\04.01 Worms World Party.csproj", "{5053FF22-8A8D-49E1-9505-CA4C2C04B078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CC256CA-8BB9-44CF-B24A-35E3317548DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC256CA-8BB9-44CF-B24A-35E3317548DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC256CA-8BB9-44CF-B24A-35E3317548DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC256CA-8BB9-44CF-B24A-35E3317548DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CD4971-AA4A-45A9-9D32-B36ED41955BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CD4971-AA4A-45A9-9D32-B36ED41955BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CD4971-AA4A-45A9-9D32-B36ED41955BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CD4971-AA4A-45A9-9D32-B36ED41955BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F770BA-3A3E-4A1E-89C9-8937BBC0A726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F770BA-3A3E-4A1E-89C9-8937BBC0A726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F770BA-3A3E-4A1E-89C9-8937BBC0A726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F770BA-3A3E-4A1E-89C9-8937BBC0A726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C0FB5E-9C4B-416B-B8F4-A97031C72305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C0FB5E-9C4B-416B-B8F4-A97031C72305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C0FB5E-9C4B-416B-B8F4-A97031C72305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C0FB5E-9C4B-416B-B8F4-A97031C72305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC32076C-F9F0-4123-9522-836B557378D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC32076C-F9F0-4123-9522-836B557378D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC32076C-F9F0-4123-9522-836B557378D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC32076C-F9F0-4123-9522-836B557378D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC6AB42-0B8B-4BCF-8F7F-0DB49846370A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC6AB42-0B8B-4BCF-8F7F-0DB49846370A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC6AB42-0B8B-4BCF-8F7F-0DB49846370A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC6AB42-0B8B-4BCF-8F7F-0DB49846370A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5053FF22-8A8D-49E1-9505-CA4C2C04B078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5053FF22-8A8D-49E1-9505-CA4C2C04B078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5053FF22-8A8D-49E1-9505-CA4C2C04B078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5053FF22-8A8D-49E1-9505-CA4C2C04B078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

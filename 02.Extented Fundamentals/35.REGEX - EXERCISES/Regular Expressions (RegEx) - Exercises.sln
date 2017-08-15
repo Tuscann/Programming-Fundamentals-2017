@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.01 Happiness Index", "07
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.03 Cards", "01.03 Cards\01.03 Cards.csproj", "{0DDC4F33-9F6B-4688-BB47-D80B40772C2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{C2266BE3-F337-481F-87EF-B4626F479D76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{0DDC4F33-9F6B-4688-BB47-D80B40772C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DDC4F33-9F6B-4688-BB47-D80B40772C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DDC4F33-9F6B-4688-BB47-D80B40772C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2266BE3-F337-481F-87EF-B4626F479D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2266BE3-F337-481F-87EF-B4626F479D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2266BE3-F337-481F-87EF-B4626F479D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2266BE3-F337-481F-87EF-B4626F479D76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
