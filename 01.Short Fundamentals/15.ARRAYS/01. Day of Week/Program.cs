@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string[] days =
         {
@@ -24,7 +24,5 @@ class Program
         {
             Console.WriteLine(days[0]);
         }
-
-
     }
 }

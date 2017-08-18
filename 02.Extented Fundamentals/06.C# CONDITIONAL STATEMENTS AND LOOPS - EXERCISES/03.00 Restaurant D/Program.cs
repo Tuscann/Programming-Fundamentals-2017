@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() //100/100
     {
         int groupSize = int.Parse(Console.ReadLine());
         string package = Console.ReadLine();

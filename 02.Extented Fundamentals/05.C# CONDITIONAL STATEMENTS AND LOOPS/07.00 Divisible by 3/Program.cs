@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() //100/100
     {
         for (int i = 3; i <= 100; i += 3)
         {

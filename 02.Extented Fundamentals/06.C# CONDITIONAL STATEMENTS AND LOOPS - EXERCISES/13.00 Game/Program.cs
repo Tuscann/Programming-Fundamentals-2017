@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() //100/100
     {
         int n = int.Parse(Console.ReadLine());
         int m = int.Parse(Console.ReadLine());
@@ -16,7 +16,6 @@ class Program
         {
             for (int j = n; j <= m; j++)
             {
-                //Console.WriteLine("{0} {1}", i, j);
                 counter++;
 
                 if (i + j == magicNumber)
@@ -27,7 +26,7 @@ class Program
                 }
             }
         }
-        if (found == true)
+        if (found)
         {
             Console.WriteLine("Number found! {0} + {1} = {2}", printOne, printTwo, printOne + printTwo);
         }

@@ -1,11 +1,11 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() //100/100
     {
         try
         {
-            var n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
             Console.WriteLine("It is a number.");
         }
         catch

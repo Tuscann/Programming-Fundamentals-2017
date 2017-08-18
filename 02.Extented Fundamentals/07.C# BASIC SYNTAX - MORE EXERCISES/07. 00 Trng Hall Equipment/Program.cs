@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         double budget = double.Parse(Console.ReadLine());
         double n = double.Parse(Console.ReadLine());

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text.RegularExpressions;
 class Program
 {
-    static void Main()
+    static void Main() 
     {
         List<string> input = Console.ReadLine().Split(new[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
-        //  .Split(new char[] { ' ', ',', '\t', '\n' }, StringSplitOptions.RemoveEmptyEntries)
-        var dic = new Dictionary<string, Dictionary<double,double>>();
+        
+        Dictionary<string, Dictionary<double, double>> dic = new Dictionary<string, Dictionary<double,double>>();
 
         double health = 0;
         double damage = 0;
@@ -34,9 +34,7 @@ class Program
                 damage += double.Parse(stringg.Groups[1].ToString());
                 sign = stringg.Groups[2].ToString();
             }
-
-
-
+            
             if (!dic.ContainsKey(row))
             {
                 if (sign=="*")
@@ -49,15 +47,12 @@ class Program
                     dic[row] = new Dictionary<double, double>();
                     dic[row].Add(health, damage / 2 / 2);
                 }
-
-
-               
             }
         }
-        foreach (var row in dic.OrderBy(x => x.Key))
+        foreach (KeyValuePair<string, Dictionary<double, double>> row in dic.OrderBy(x => x.Key))
         {
             Console.Write("{0} - ", row.Key);
-            foreach (var digits in row.Value)
+            foreach (KeyValuePair<double, double> digits in row.Value)
             {
                 Console.Write("{0} health, {1:f2} damage", digits.Key, digits.Value);
             }

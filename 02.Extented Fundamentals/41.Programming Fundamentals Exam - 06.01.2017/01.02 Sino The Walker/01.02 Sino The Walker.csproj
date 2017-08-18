@@ -7,7 +7,7 @@
     <ProjectGuid>{336B762D-2383-4428-B44D-8CB13E5331DC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_01._02_Sino_The_Walker</RootNamespace>
-    <AssemblyName>_01._02_Sino_The_Walker</AssemblyName>
+    <AssemblyName>01.02 Sino The Walker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

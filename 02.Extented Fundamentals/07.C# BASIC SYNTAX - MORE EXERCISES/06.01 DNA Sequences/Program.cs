@@ -1,7 +1,7 @@
 ﻿using System;
 class DNASequences
 {
-    static void Main(string[] args)
+    static void Main() // 100/100
     {
         int matchSum = int.Parse(Console.ReadLine());
 

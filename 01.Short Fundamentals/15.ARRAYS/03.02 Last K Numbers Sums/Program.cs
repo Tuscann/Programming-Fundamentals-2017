@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         long n = long.Parse(Console.ReadLine());
         long k = long.Parse(Console.ReadLine());
@@ -30,4 +30,3 @@ class Program
         return sum;
     }
 }
-

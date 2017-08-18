@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string[] demonsInfo = Console.ReadLine()
             .Split(new char[] { ' ', ',', '\t', '\n' }, StringSplitOptions.RemoveEmptyEntries);

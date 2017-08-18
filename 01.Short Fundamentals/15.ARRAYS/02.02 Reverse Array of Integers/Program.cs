@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Linq;
-
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         int rotation = int.Parse(Console.ReadLine());
 

@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string typeOfDAY = Console.ReadLine();
         int age = int.Parse(Console.ReadLine());

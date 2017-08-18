@@ -7,7 +7,7 @@
     <ProjectGuid>{44C1407F-C50D-4E74-AF1C-0A0DD945C278}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_02._00_SoftUni_Karaoke</RootNamespace>
-    <AssemblyName>_02._00_SoftUni_Karaoke</AssemblyName>
+    <AssemblyName>02.00 SoftUni Karaoke</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         int a = int.Parse(Console.ReadLine());
         int b = int.Parse(Console.ReadLine());

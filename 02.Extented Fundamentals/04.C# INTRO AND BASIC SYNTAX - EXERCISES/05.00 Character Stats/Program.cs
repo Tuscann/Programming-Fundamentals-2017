@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string name = Console.ReadLine();
         int current_health = int.Parse(Console.ReadLine());

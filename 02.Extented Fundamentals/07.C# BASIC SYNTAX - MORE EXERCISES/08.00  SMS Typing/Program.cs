@@ -2,11 +2,11 @@
 
 public class SMS_Typing
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
-        var n = int.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine());
 
-        var sms = string.Empty;
+        string sms = string.Empty;
 
         sms = GetSMS(n, sms);
 
@@ -17,7 +17,7 @@ public class SMS_Typing
     {
         for (int i = 0; i < n; i++)
         {
-            var currentMessageCharacters = Console.ReadLine();
+            string currentMessageCharacters = Console.ReadLine();
 
             if (currentMessageCharacters == "0")
             {
@@ -25,24 +25,23 @@ public class SMS_Typing
             }
             else
             {
-                var mainDigit = int.Parse(currentMessageCharacters[0].ToString());
-                var numberOfDigits = currentMessageCharacters.Length;
+                int mainDigit = int.Parse(currentMessageCharacters[0].ToString());
+                int numberOfDigits = currentMessageCharacters.Length;
 
-                var offset = (mainDigit - 2) * 3;
+                int offset = (mainDigit - 2) * 3;
 
                 if (mainDigit == 8 || mainDigit == 9)
                 {
                     offset++;
                 }
 
-                var letterIndex = offset + numberOfDigits - 1;
+                int letterIndex = offset + numberOfDigits - 1;
 
-                var currentMessage = (char)(letterIndex + 97);
+                char currentMessage = (char)(letterIndex + 97);
 
                 SMS += currentMessage;
             }
         }
-
         return SMS;
     }
 }

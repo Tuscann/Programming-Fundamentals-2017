@@ -1,9 +1,9 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
-        var name = Console.ReadLine();
+        string name = Console.ReadLine();
         int volume = int.Parse(Console.ReadLine());
         int energy = int.Parse(Console.ReadLine());
         int sugar = int.Parse(Console.ReadLine());

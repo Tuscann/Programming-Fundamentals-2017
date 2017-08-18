@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() //100/100
     {
         char firstLetter = char.Parse(Console.ReadLine());
         char lasttLetter = char.Parse(Console.ReadLine());

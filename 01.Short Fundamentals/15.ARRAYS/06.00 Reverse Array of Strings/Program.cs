@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _06._00_Reverse_Array_of_Strings
+class Program
 {
-    class Program
+    static void Main() // 100/100
     {
-        static void Main(string[] args)
-        {
-        }
+        Console.WriteLine(string.Join(" ", Console.ReadLine().Split(' ').Reverse()));
     }
 }

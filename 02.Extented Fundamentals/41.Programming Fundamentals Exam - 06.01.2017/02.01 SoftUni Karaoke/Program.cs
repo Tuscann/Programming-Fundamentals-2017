@@ -4,11 +4,13 @@ using System.Linq;
 
 public class SoftUniKaraoke
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         string[] allParticipants = Console.ReadLine().Split(new char[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries);
         string[] allSongs = Console.ReadLine().Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+
         List<string> songs = new List<string>();
+        Dictionary<string, List<string>> result = new Dictionary<string, List<string>>();
 
         foreach (string song in allSongs)
         {
@@ -16,9 +18,7 @@ public class SoftUniKaraoke
         }
 
         string performance = Console.ReadLine();
-
-        Dictionary<string, List<string>> result = new Dictionary<string, List<string>>();
-
+        
         while (performance != "dawn")
         {
             string[] tokens = performance.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);

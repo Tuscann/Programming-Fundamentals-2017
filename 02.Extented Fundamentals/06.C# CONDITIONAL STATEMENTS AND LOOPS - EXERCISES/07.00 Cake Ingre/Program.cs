@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() //100/100
     {
         int counter = 0;
         while (true)
@@ -16,6 +16,5 @@ class Program
             counter++;
         }
         Console.WriteLine("Preparing cake with {0} ingredients.", counter);
-
     }
 }

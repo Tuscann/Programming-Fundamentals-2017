@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main() //100/100
     {
         int n = int.Parse(Console.ReadLine());
         int m = int.Parse(Console.ReadLine());
@@ -14,7 +14,6 @@ class Program
         {
             for (int j = 1; j <= m; j++)
             {
-                //Console.Write("{0} {1}",i,j);
                 counter++;
                 sum += 3 * i * j;
                 if (sum >= max)

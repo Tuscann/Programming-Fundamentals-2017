@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main()   // 100/100
     {
         double width = double.Parse(Console.ReadLine());
         double height = double.Parse(Console.ReadLine());
