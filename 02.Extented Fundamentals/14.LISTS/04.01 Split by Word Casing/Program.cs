@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 class Split_by_Word_Casing
 {
-    static void Main()
+    static void Main() // 100/100
     {
         char[] separators = ",;:.!()\"'/\\[] ".ToCharArray();
         string[] words = Console.ReadLine().Split(separators, StringSplitOptions.RemoveEmptyEntries);

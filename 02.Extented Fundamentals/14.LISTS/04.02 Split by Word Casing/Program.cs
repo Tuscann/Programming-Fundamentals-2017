@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 class Program
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         var list = Console.ReadLine().Split(new char[] { ',', ';', ':', '.', '!', '(', ')', '"', '\'', '\\', '/', '[', ']', ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
         var lowerCase = new List<string>();

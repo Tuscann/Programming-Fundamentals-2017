@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
-        var blackList = Console.ReadLine().Split(' ').ToList();
-        var print = new List<string>();
+        List<string> blackList = Console.ReadLine().Split(' ').ToList();
+        List<string> print = new List<string>();
 
         while (true)
         {

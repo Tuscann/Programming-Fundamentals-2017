@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 public class TearInHalf
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
-        var input = Console.ReadLine().Split().Select(int.Parse).ToArray();
-        var firstHalf = input.Take(input.Length / 2).ToArray();
-        var secondHalf = input.Skip(input.Length / 2).ToArray();
-        var lenght = input.Length + input.Length / 2;
-        var result = new List<int>(lenght);
+        int[] input = Console.ReadLine().Split().Select(int.Parse).ToArray();
+        int[] firstHalf = input.Take(input.Length / 2).ToArray();
+        int[] secondHalf = input.Skip(input.Length / 2).ToArray();
+        int lenght = input.Length + input.Length / 2;
+        List<int> result = new List<int>(lenght);
 
         for (int i = 0; i < firstHalf.Length; i++)
         {

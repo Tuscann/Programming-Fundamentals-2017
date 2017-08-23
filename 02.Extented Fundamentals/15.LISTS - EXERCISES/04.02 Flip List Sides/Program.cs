@@ -4,11 +4,10 @@ using System.Linq;
 
 public class Program
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
-        var inputList = Console.ReadLine().Trim().Split(' ').Select(long.Parse).ToList();
-
-
+        List<long> inputList = Console.ReadLine().Trim().Split(' ').Select(long.Parse).ToList();
+        
         if (inputList.Count % 2 != 0)
         {
             try
@@ -18,29 +17,26 @@ public class Program
             catch (Exception)
             {
                 Console.WriteLine(string.Join(" ", inputList));
-
             }
         }
-
         else
         {
             EvenCountMethod(inputList);
-
         }
     }
 
     public static void OddCountMethod(List<long> inputList)
     {
-        var outputList = new List<long>();
+        List<long> outputList = new List<long>();
 
         for (int i = 0; i < inputList.Count; i++)
         {
             outputList.Add(inputList[i]);
         }
 
-        var last = outputList[outputList.Count - 1];
-        var middle = outputList[outputList.Count / 2 + 1];
-        var first = outputList[0];
+        long last = outputList[outputList.Count - 1];
+        long middle = outputList[outputList.Count / 2 + 1];
+        long first = outputList[0];
 
         outputList.RemoveAt(outputList.Count - 1);
         outputList.RemoveAt(outputList.Count / 2 + 1);
@@ -57,15 +53,15 @@ public class Program
 
     public static void EvenCountMethod(List<long> inputList)
     {
-        var outputList = new List<long>();
+        List<long> outputList = new List<long>();
 
         for (int i = 0; i < inputList.Count; i++)
         {
             outputList.Add(inputList[i]);
         }
 
-        var last = outputList[outputList.Count - 1];
-        var first = outputList[0];
+        long last = outputList[outputList.Count - 1];
+        long first = outputList[0];
 
         outputList.RemoveAt(outputList.Count - 1);
         outputList.RemoveAt(0);

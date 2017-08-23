@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 public class Program
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         string pattern = @"^(\<\[[^A-Za-z0-9]*\][\.]{1})+([\.]{1}\[[A-Za-z0-9]*\][\.]{1})*$";
 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 class Append_Lists
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<string[]> sequences = new List<string[]>();
         string[] seqs = Console.ReadLine().Split(new char[] { '|' }, StringSplitOptions.RemoveEmptyEntries);

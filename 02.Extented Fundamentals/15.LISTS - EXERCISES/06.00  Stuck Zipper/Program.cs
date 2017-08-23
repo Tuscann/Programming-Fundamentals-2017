@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<int> firstLine = Console.ReadLine().Split().Select(int.Parse).ToList();
         List<int> secondLine = Console.ReadLine().Split().Select(int.Parse).ToList();
@@ -29,9 +29,6 @@ class Program
                 i--;
             }
         }
-        //Console.WriteLine("{0}" + "\n", string.Join(" ", firstLine));
-        //Console.WriteLine("{0}" + "\n", string.Join(" ", secondLine));
-
         List<int> printAnswer = new List<int>();
 
         for (int i = 0; i < Math.Max(firstLine.Count, secondLine.Count); i++)

@@ -1,7 +1,7 @@
 ﻿using System;
 public class Phone
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string[] phonenumbers = Console.ReadLine().Split();
         string[] names = Console.ReadLine().Split();

@@ -2,7 +2,7 @@
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string[] phoneNumbers = Console.ReadLine().Split(' ').ToArray();
         string[] names = Console.ReadLine().Split(' ').ToArray();

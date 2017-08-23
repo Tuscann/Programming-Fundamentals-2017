@@ -1,7 +1,7 @@
 ﻿using System;
 public class PhoneBookSimpleArr
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string[] nums = Console.ReadLine().Split(' ');
         string[] names = Console.ReadLine().Split(' ');

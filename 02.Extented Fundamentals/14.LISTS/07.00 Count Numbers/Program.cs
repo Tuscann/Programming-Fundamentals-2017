@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<int> input = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
         input.Sort((a, b) => a.CompareTo(b));

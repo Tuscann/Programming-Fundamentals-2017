@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 public class EqualSumAfterExtraction
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
-
         List<int> firstListOfInt = Console.ReadLine().Split()
             .Select(int.Parse).ToList();
 

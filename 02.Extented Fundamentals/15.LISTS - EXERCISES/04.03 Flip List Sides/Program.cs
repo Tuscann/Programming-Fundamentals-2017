@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
-        var number = Console.ReadLine().Trim().Split(' ').Select(int.Parse).ToList();
-        var num = new List<int>();
-        var nums = new List<int>();
+        List<int> number = Console.ReadLine().Trim().Split(' ').Select(int.Parse).ToList();
+        List<int> num = new List<int>();
+        List<int> nums = new List<int>();
         for (int i = 1; i <= number.Count - 2; i++)
         {
             nums.Add(number[i]);

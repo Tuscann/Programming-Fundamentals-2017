@@ -1,6 +1,10 @@
 ﻿using System;
-class Program  // 100/100
+class Program  
 {
+    static void Main()  // 100/100
+    {
+        PrintReceipt();
+    }
     static void PrintReceipHeader()
     {
         Console.WriteLine("CASH RECEIPT");
@@ -24,9 +28,5 @@ class Program  // 100/100
         PrintReceipHeader();
         PrintReceiptBody();
         PrintReceiptFooter();
-    }
-    static void Main()
-    {
-        PrintReceipt();
     }
 }

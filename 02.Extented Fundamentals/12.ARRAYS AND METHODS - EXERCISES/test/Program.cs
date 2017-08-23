@@ -1,7 +1,7 @@
 ﻿using System;
 public class Notifications
 {
-    public static void Main(string[] args)
+    public static void Main() // 100/100
     {
         var numberCounts = int.Parse(Console.ReadLine());
 

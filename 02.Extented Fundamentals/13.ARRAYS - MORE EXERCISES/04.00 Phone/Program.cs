@@ -2,7 +2,7 @@
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main()  // 0/100
     {
         string[] phoneNumbers = Console.ReadLine().Split(' ').ToArray();
         string[] names = Console.ReadLine().Split(' ').ToArray();
@@ -32,14 +32,11 @@ class Program
 
                     }
 
-
                 }
                 else
                 {
                     Console.WriteLine("sending sms to {0}...", massageNumber);
                 }
-
-
             }
             else if (comand[0] == "call")
             {

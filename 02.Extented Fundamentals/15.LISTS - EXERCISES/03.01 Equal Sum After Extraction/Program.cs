@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<int> firstList = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
         List<int> secondList = Console.ReadLine().Split(' ').Select(int.Parse).ToList();

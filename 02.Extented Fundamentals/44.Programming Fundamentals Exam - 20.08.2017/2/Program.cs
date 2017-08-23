@@ -1,62 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-class Program
+public class Entertrain
 {
-    static void Main()
+    public static void Main() // 100/100
     {
-        var list = new List<int>();
-        
-        while (true)
+        int locPower = int.Parse(Console.ReadLine());
+
+        string input = Console.ReadLine();
+
+        List<int> wagons = new List<int>();
+
+        while (input != "All ofboard!")
         {
-            string current = Console.ReadLine();
-            if (current == "All ofboard!")
+            int wagonWeight = int.Parse(input);
+
+            int averageWeeight = 0;
+
+            wagons.Add(wagonWeight);
+
+            int wagonsSum = wagons.Sum();
+
+            if (wagonsSum > locPower)
             {
-                break;
+                averageWeeight = (int)wagons.Average();
+
+                int closest = wagons.OrderBy(item => Math.Abs(averageWeeight - item)).First();
+                int closestIndex = wagons.IndexOf(closest);
+                wagons.RemoveAt(closestIndex);
             }
-            list.Add(int.Parse(current));
 
+            input = Console.ReadLine();
         }
-        int locomotivePower = list[0];
-        int totalWeight = 0;
-        int average = -3213123;
-        
-        for (int i = 1; i < list.Count; i++)
-        {
-            totalWeight += list[i];
-            if (locomotivePower < totalWeight)
-            {
-                average = (int)(totalWeight / i);
-                break;
-            }
-            
-        }
-        if (average!= -3213123)
-        {
-            int differnce = 987659;
-            int numberToRemove = 0;
-           
 
-            for (int i = 1; i < list.Count; i++)
-            {
-                int cuurenttDifeence = Math.Abs(average - list[i]);
+        wagons.Reverse();
+        wagons.Add(locPower);
 
-                if (cuurenttDifeence < differnce)
-                {
-                    differnce = cuurenttDifeence;
-                    numberToRemove = list[i];
-                }
-            }
-            //Console.WriteLine(differnce);
-            //Console.WriteLine(numberToRemove);
-
-            list.Remove(list.Single(x => x == numberToRemove));
-        }
-        Console.WriteLine(average);
-
-        for (int i = list.Count - 1; i >= 0; i--)
-        {
-            Console.Write("{0} ", list[i]);
-        }
+        Console.WriteLine(string.Join(" ", wagons));
     }
 }

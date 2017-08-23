@@ -2,7 +2,7 @@
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         int[] firePosition = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         string[] commands = Console.ReadLine().Split(' ').ToArray();

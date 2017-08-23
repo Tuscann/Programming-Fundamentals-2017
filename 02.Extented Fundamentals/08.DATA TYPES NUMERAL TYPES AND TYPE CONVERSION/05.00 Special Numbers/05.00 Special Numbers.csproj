@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{87142361-8AC2-47F5-A33F-96D5C253C642}</ProjectGuid>
+    <ProjectGuid>{6131DA1D-DD82-4423-B1FE-01AE9BAE76B1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_05._00_Special_Numbers</RootNamespace>
     <AssemblyName>05.00 Special Numbers</AssemblyName>

@@ -3,53 +3,67 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Hello, Name!", "01. Hello, Name!\01. Hello, Name!.csproj", "{71379213-D8DD-4F1E-8E4B-87A01020181C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.00 Hello, Name!", "01. Hello, Name!\01.00 Hello, Name!.csproj", "{71379213-D8DD-4F1E-8E4B-87A01020181C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Min Method", "02. Min Method\02. Min Method.csproj", "{3506F87E-242C-406A-8D44-EDF60407F01C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.00 Min Method", "02. Min Method\02.00 Min Method.csproj", "{3506F87E-242C-406A-8D44-EDF60407F01C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. String Repeater", "03. String Repeater\03. String Repeater.csproj", "{705FCF6F-05C7-4FC9-82E8-ED2F61F4FDE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.00 String Repeater", "03. String Repeater\03.00 String Repeater.csproj", "{705FCF6F-05C7-4FC9-82E8-ED2F61F4FDE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Nth Digit", "04. Nth Digit\04. Nth Digit.csproj", "{547D971B-098C-461C-963C-726DA0ED65AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.00 Nth Digit", "04. Nth Digit\04.00 Nth Digit.csproj", "{547D971B-098C-461C-963C-726DA0ED65AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Integer to Base", "05. Integer to Base\05. Integer to Base.csproj", "{C60BB7A8-850E-482B-9CC3-6F3E80BE5B70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.00 Integer to Base", "05. Integer to Base\05.00 Integer to Base.csproj", "{C60BB7A8-850E-482B-9CC3-6F3E80BE5B70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. Debugg Exercise Tetris", "21. Debugg Exercise Tetris\21. Debugg Exercise Tetris.csproj", "{BB57C400-5CB2-4D1A-84A8-1DB7B7477132}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.00 Debugg Exercise Tetris", "21. Debugg Exercise Tetris\21.00 Debugg Exercise Tetris.csproj", "{BB57C400-5CB2-4D1A-84A8-1DB7B7477132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. De Exercise Mining Coins", "22. De Exercise Mining Coins\22. De Exercise Mining Coins.csproj", "{736974B8-7596-40C4-9367-D0CBBFC5F084}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.00 Debugging Exercise Mining Coins", "22. De Exercise Mining Coins\22.00 Debugging Exercise Mining Coins.csproj", "{736974B8-7596-40C4-9367-D0CBBFC5F084}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.00 Notifications", "06. Notifications\06.00 Notifications.csproj", "{A97F84EC-7E6B-4E1E-AE3E-BA0D1524CF40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.01 Notifications", "test\06.01 Notifications.csproj", "{3F6EE5FB-213E-43F1-8E15-9B5E548764AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Numbers to Words", "07. Numbers to Words\07. Numbers to Words.csproj", "{8A9B4CB8-A6AF-4A71-B6B7-CAC252F7F588}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.00 Numbers to Words", "07. Numbers to Words\07.00 Numbers to Words.csproj", "{8A9B4CB8-A6AF-4A71-B6B7-CAC252F7F588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Largest Element in Array", "09. Largest Element in Array\09. Largest Element in Array.csproj", "{866A5C94-B309-48C9-8F54-CA64D4E6DFA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.00 Largest Element in Array", "09. Largest Element in Array\09.00 Largest Element in Array.csproj", "{866A5C94-B309-48C9-8F54-CA64D4E6DFA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Count of Negative Elements in Array", "10. Neg Elem in Array\10.Count of Negative Elements in Array.csproj", "{623C35C8-0F3D-43D8-9946-B4F75001DA84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.00 Count of Negative Elements in Array", "10. Neg Elem in Array\10.00 Count of Negative Elements in Array.csproj", "{623C35C8-0F3D-43D8-9946-B4F75001DA84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Count of Given Element in Array", "11.  Element in Array\11. Count of Given Element in Array.csproj", "{8857C93B-DA69-43E6-8A00-C24DA6EC3513}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.00 Count of Given Element in Array", "11.  Element in Array\11.00 Count of Given Element in Array.csproj", "{8857C93B-DA69-43E6-8A00-C24DA6EC3513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Count Occurrences of Larger Numbers in Array", "12. Count Occurrences\12. Count Occurrences of Larger Numbers in Array.csproj", "{EB59A649-DFE9-44AB-A4E3-4BC26C4D9275}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.00 Count Occurrences of Larger Numbers in Array", "12. Count Occurrences\12.00 Count Occurrences of Larger Numbers in Array.csproj", "{EB59A649-DFE9-44AB-A4E3-4BC26C4D9275}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Increasing Sequence of Elements", "13. Increasing S\13. Increasing Sequence of Elements.csproj", "{A15951DC-9473-4396-8AE8-F6DA69EC7905}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.00 Increasing Sequence of Elements", "13. Increasing S\13.00 Increasing Sequence of Elements.csproj", "{A15951DC-9473-4396-8AE8-F6DA69EC7905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Equal Sequence of Elements in Array", "14. Equal Sequence\14. Equal Sequence of Elements in Array.csproj", "{73E4EEBC-E114-4277-AA06-F10CF1696A7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.00 Equal Sequence of Elements in Array", "14. Equal Sequence\14.00 Equal Sequence of Elements in Array.csproj", "{73E4EEBC-E114-4277-AA06-F10CF1696A7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Count of Capital Letters in Array", "15. Count of Capital\15. Count of Capital Letters in Array.csproj", "{0EC02BC6-25D7-4A79-A858-44ECB169BB1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.00 Count of Capital Letters in Array", "15. Count of Capital\15.00 Count of Capital Letters in Array.csproj", "{0EC02BC6-25D7-4A79-A858-44ECB169BB1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Array Symmetry", "16. Array Symmetry\16. Array Symmetry.csproj", "{D63D93F6-F403-410C-ACD9-236777CF6F4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.00 Array Symmetry", "16. Array Symmetry\16.00 Array Symmetry.csproj", "{D63D93F6-F403-410C-ACD9-236777CF6F4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.00  Altitude", "17. Altitude\17.00  Altitude.csproj", "{9CA7BEAB-9CB7-4AF9-9B60-582FF7EF875C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.00 Altitude", "17. Altitude\17.00 Altitude.csproj", "{9CA7BEAB-9CB7-4AF9-9B60-582FF7EF875C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.01  Altitude", "17.01  Altitude\17.01  Altitude.csproj", "{AE2D6C60-80C6-41B8-AA0A-2AAC417EBDA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.01 Altitude", "17.01  Altitude\17.01 Altitude.csproj", "{AE2D6C60-80C6-41B8-AA0A-2AAC417EBDA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Ballistics Training", "18. Ballistics Training\18. Ballistics Training.csproj", "{0581175F-2548-4BE1-A0C1-ED1748FD50E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.00 Ballistics Training", "18. Ballistics Training\18.00 Ballistics Training.csproj", "{0581175F-2548-4BE1-A0C1-ED1748FD50E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.String Encryption", "08.String Encryption\08.String Encryption.csproj", "{DB1138C6-4310-4530-97FD-714B8DC49C9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.00 String Encryption", "08.String Encryption\08.00 String Encryption.csproj", "{DB1138C6-4310-4530-97FD-714B8DC49C9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Debugging Exercise Triangle Formations", "Debugging Exercise Triangle\20. Debugging Exercise Triangle Formations.csproj", "{D8B34770-C01C-4C8C-8A08-060F6299D941}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.00 Debugging Exercise Triangle Formations", "Debugging Exercise Triangle\20.00 Debugging Exercise Triangle Formations.csproj", "{D8B34770-C01C-4C8C-8A08-060F6299D941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Debugging Exercise Tricky Strings", "19. Debugging Exercise Tric\19. Debugging Exercise Tricky Strings.csproj", "{97502BEC-982D-410E-84F4-6DBFB2D3604B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.00 Debugging Exercise Tricky Strings", "19. Debugging Exercise Tric\19.00 Debugging Exercise Tricky Strings.csproj", "{97502BEC-982D-410E-84F4-6DBFB2D3604B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.01 Largest Element in Array", "09.01 Largest Element in Array\09.01 Largest Element in Array.csproj", "{599530A2-F3AC-4211-AA92-7C42436905A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.01 Count of Negative Elements in Array", "10.01 Count of Negative Elements in Array\10.01 Count of Negative Elements in Array.csproj", "{45EF6273-6758-4EC3-9874-A95E358DDBD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.01 Count of Given Element in Array", "11.01 Count of Given Element in Array\11.01 Count of Given Element in Array.csproj", "{9A827B34-2544-4210-84A4-9D612EC033CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.01 Count Occurrences of Larger Numbers in Array", "12.01 Count Occurrences of Larger Numbers in\12.01 Count Occurrences of Larger Numbers in Array.csproj", "{671F1301-B623-43AC-8ADA-998DDAE99B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.01 Ballistics Training", "18.01 Ballistics Training\18.01 Ballistics Training.csproj", "{9F71D628-CDFD-4EC9-AB63-B677DE5484C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.01 Array Symmetry", "16.01 Array Symmetry\16.01 Array Symmetry.csproj", "{F721DE86-3039-436D-9722-9EE6CB8C4284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01 Nth Digit", "04.01 Nth Digit\04.01 Nth Digit.csproj", "{EAFFB72D-110D-46F1-8573-EF97BAB50756}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +167,34 @@ Global
 		{97502BEC-982D-410E-84F4-6DBFB2D3604B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97502BEC-982D-410E-84F4-6DBFB2D3604B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97502BEC-982D-410E-84F4-6DBFB2D3604B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599530A2-F3AC-4211-AA92-7C42436905A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599530A2-F3AC-4211-AA92-7C42436905A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599530A2-F3AC-4211-AA92-7C42436905A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599530A2-F3AC-4211-AA92-7C42436905A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45EF6273-6758-4EC3-9874-A95E358DDBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45EF6273-6758-4EC3-9874-A95E358DDBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45EF6273-6758-4EC3-9874-A95E358DDBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45EF6273-6758-4EC3-9874-A95E358DDBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A827B34-2544-4210-84A4-9D612EC033CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A827B34-2544-4210-84A4-9D612EC033CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A827B34-2544-4210-84A4-9D612EC033CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A827B34-2544-4210-84A4-9D612EC033CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671F1301-B623-43AC-8ADA-998DDAE99B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671F1301-B623-43AC-8ADA-998DDAE99B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671F1301-B623-43AC-8ADA-998DDAE99B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671F1301-B623-43AC-8ADA-998DDAE99B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F71D628-CDFD-4EC9-AB63-B677DE5484C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F71D628-CDFD-4EC9-AB63-B677DE5484C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F71D628-CDFD-4EC9-AB63-B677DE5484C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F71D628-CDFD-4EC9-AB63-B677DE5484C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F721DE86-3039-436D-9722-9EE6CB8C4284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F721DE86-3039-436D-9722-9EE6CB8C4284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F721DE86-3039-436D-9722-9EE6CB8C4284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F721DE86-3039-436D-9722-9EE6CB8C4284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFFB72D-110D-46F1-8573-EF97BAB50756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFFB72D-110D-46F1-8573-EF97BAB50756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFFB72D-110D-46F1-8573-EF97BAB50756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFFB72D-110D-46F1-8573-EF97BAB50756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

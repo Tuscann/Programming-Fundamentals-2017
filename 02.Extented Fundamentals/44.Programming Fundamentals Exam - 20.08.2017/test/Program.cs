@@ -3,50 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main()  // 100/100
     {
-        List<long> list = new List<long>();
+        long traineeCount = long.Parse(Console.ReadLine());
+        Dictionary<string, decimal> result = new Dictionary<string, decimal>();
+        result.Add("Technical", 0);
+        result.Add("Practical", 0);
+        result.Add("Theoretical", 0);
 
-        while (true)
+        for (int i = 0; i < traineeCount; i++)
         {
-            string current = Console.ReadLine();
-            if (current == "All ofboard!")
-            {
-                break;
-            }
-            list.Add(long.Parse(current));
+            long distanceInMiles = long.Parse(Console.ReadLine());
+            decimal cargoInTons = decimal.Parse(Console.ReadLine());
+            string teamName = Console.ReadLine();
+
+            decimal profit = cargoInTons * 1000 * 1.5m - distanceInMiles * 1600 * 0.7m * 2.5m;
+           
+            result[teamName] += profit;
         }
-        long sum = 0;
-        long locomotive = list[0];
-        List<long> printList = new List<long>();
+        decimal winnerProfit = result.Values.Max();
+        string winnerTeam = result.FirstOrDefault(x => x.Value == winnerProfit).Key;
 
-        for (int i = 1; i < list.Count; i++)
-        {
-            sum += list[i];
-
-            if (sum > locomotive)
-            {
-                long average = sum / i;
-
-
-                for (int j = 1; j < list.Count; j++)
-                {
-                    printList.Add(list[j - 1]);
-                }
-                long minDistance = printList.Min(n => Math.Abs(average - n));
-                long closest = printList.First(n => Math.Abs(average - n) == minDistance);
-
-                printList.Remove(closest);
-                //Console.WriteLine(average);
-
-                break;
-            }
-        }
-        for (int k = printList.Count - 1; k >= 0; k--)
-        {
-            Console.Write("{0} ", printList[k]);
-        }
-        Console.WriteLine(locomotive);
-
+        Console.WriteLine($"The {winnerTeam} Trainers win with ${winnerProfit:F3}.");
     }
 }

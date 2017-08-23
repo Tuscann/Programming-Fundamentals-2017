@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<int> input = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
-        var output = new LinkedList<int>();
+        LinkedList<int> output = new LinkedList<int>();
 
         for (int i = input.Count - 2; i >= 1; i--)
         {

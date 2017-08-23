@@ -41,8 +41,16 @@ The course covers source control systems, **Git** and **GitHub** for team collab
 33. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/33.EXAM%20PREPARATION%20I"> EXAM PREPARATION I</a>
 34. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/34.EXAM%20PREPARATION%20II"> EXAM PREPARATION II</a>
 35. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/35.EXAM%20PREPARATION%20III"> EXAM PREPARATION III </a>
-36. <a href=""> Dictionaries, Lambda and LINQ </a>
-37. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/37.PRACTICAL%20EXAM%20-%2009.07.2017"> PRACTICAL EXAM - 09.07.2017</a>
+36. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/36.EXAM%20PREPARATION%20IV"> EXAM PREPARATION IV </a>
+37. <a href=""> </a>
+38. <a href=""> </a>
+39. <a href=""> PRACTICAL EXAM - 12.06.2016</a>
+40. <a href=""> PRACTICAL EXAM - 11.09.2016</a>
+41. <a href=""> PRACTICAL EXAM - 23.10.2016</a>
+42. <a href=""> PRACTICAL EXAM - 06.01.2017</a>
+43. <a href=""> PRACTICAL EXAM - 26.02.2017</a>
+44. <a href=""> PRACTICAL EXAM - 09.07.2017</a>
+45. <a href=""> PRACTICAL EXAM - 04.09.2017</a>
 
 ## <b><a href="https://softuni.bg/trainings/1618/programming-fundamentals-extended-may-2017" >Programming Fundamentals - Extended - май 2017</a></b> Exercises and labs.
 1. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/01.RESOURCES"> Resources </a> 
@@ -80,7 +88,13 @@ The course covers source control systems, **Git** and **GitHub** for team collab
 33. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/33.STRINGS%20AND%20TEXT%20PROCESSING%20-%20MORE%20EXERCISES"> Strings and Text Processing - More Exercises </a>
 34. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/34.REGULAR%20EXPRESSIONS%20(REGEX)"> Regex </a>
 35. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/35.REGEX%20-%20EXERCISES"> Regex - Exercises </a>
-36. <a href=""> EXAM PREPARATION I</a>
-37. <a href=""> EXAM PREPARATION II</a>
-38. <a href=""> EXAM PREPARATION III </a>
-39. <a href=""> Practical Еxam </a>
+36. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/36.EXAM%20PREPARATION%20I"> EXAM PREPARATION I</a>
+37. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/37.EXAM%20PREPARATION%20II"> EXAM PREPARATION II</a>
+38. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/38.EXAM%20PREPARATION%20III"> EXAM PREPARATION III </a>
+39. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/39.EXAM%20PREPARATION%20IV"> EXAM PREPARATION IV </a>
+40. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/40.EXAM%20PREPARATION%20V"> EXAM PREPARATION V </a>
+41. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/41.Programming%20Fundamentals%20Exam%20-%2006.01.2017"> Programming Fundamentals Exam - 06.01.2017 </a>
+42. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/42.Programming%20Fundamentals%20Exam%20-%2030.04%202017"> Programming Fundamentals Exam - 30.04 2017 </a>
+43. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/43.Programming%20Fundamentals%20Exam%20-%2009.05.2017"> Programming Fundamentals Exam - 09.05.2017 </a>
+44. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/44.Programming%20Fundamentals%20Exam%20-%2020.08.2017"> Programming Fundamentals Exam - 20.08.2017 </a>
+

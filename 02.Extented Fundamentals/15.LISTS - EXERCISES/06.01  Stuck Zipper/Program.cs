@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<int> firstLine = Console.ReadLine().Split().Select(int.Parse).ToList();
         List<int> secondLine = Console.ReadLine().Split().Select(int.Parse).ToList();
@@ -89,7 +89,6 @@ class Program
                 j--;
                 firstLine.Insert(j, secondLine[i]);
             }
-
         }
         Console.WriteLine(string.Join(" ", firstLine));
     }

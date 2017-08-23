@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Append_Lists
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<string> items = Console.ReadLine().Split('|').ToList();
         items.Reverse();

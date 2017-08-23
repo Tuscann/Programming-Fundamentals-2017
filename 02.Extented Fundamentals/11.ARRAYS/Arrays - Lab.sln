@@ -3,19 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Array Elements", "01. Sum Array Elements\01. Sum Array Elements.csproj", "{6FCED033-4589-4B7A-AD5D-D1BDD505C4CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.00 Sum Array Elements", "01. Sum Array Elements\01.00 Sum Array Elements.csproj", "{6FCED033-4589-4B7A-AD5D-D1BDD505C4CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.01 Sum Array Elements", "01.01 Sum Array Elements\01.01 Sum Array Elements.csproj", "{79DBA0C4-B33B-4A00-B5C8-2B9AA65456AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.00 Multiply an Array of Doubles", "02.00 Multiply an Array of Doubles\02.00 Multiply an Array of Doubles.csproj", "{9D641CCD-95F7-4F70-B951-20164B5B2F02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Smallest Element in Array", "03. Smallest Element in Array\03. Smallest Element in Array.csproj", "{A558E33C-AE6C-479B-A085-F2761E44D408}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.00 Smallest Element in Array", "03. Smallest Element in Array\03.00 Smallest Element in Array.csproj", "{A558E33C-AE6C-479B-A085-F2761E44D408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Rotate Array of Strings", "04. Rotate Array of Strings\04. Rotate Array of Strings.csproj", "{61710C17-40BD-4860-AAAB-B16CEC49076E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.00 Rotate Array of Strings", "04. Rotate Array of Strings\04.00 Rotate Array of Strings.csproj", "{61710C17-40BD-4860-AAAB-B16CEC49076E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Count of Odd Numbers in Array", "05. Count of Odd Numbers in Array\05. Count of Odd Numbers in Array.csproj", "{DBCA7E39-54E8-4074-8851-90C8D9C72857}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.00 Count of Odd Numbers in Array", "05. Count of Odd Numbers in Array\05.00 Count of Odd Numbers in Array.csproj", "{DBCA7E39-54E8-4074-8851-90C8D9C72857}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Odd Numbers at Odd Positions", "06. Odd Numbers at Odd Positions\06. Odd Numbers at Odd Positions.csproj", "{53E735D3-E09D-4333-827E-3DCC513FBA27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.00 Odd Numbers at Odd Positions", "06. Odd Numbers at Odd Positions\06.00 Odd Numbers at Odd Positions.csproj", "{53E735D3-E09D-4333-827E-3DCC513FBA27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.01 Multiply an Array of Doubles", "02.01 Multiply an Array of Doubles\02.01 Multiply an Array of Doubles.csproj", "{61BB04E9-AFDB-4249-AA4B-EF53696B1328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01 Smallest Element in Array", "03.01 Smallest Element in Array\03.01 Smallest Element in Array.csproj", "{32EE54D4-6A26-4574-982E-87089D820DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01 Rotate Array of Strings", "04.01 Rotate Array of Strings\04.01 Rotate Array of Strings.csproj", "{7CD6B099-5C5F-4D55-A8E7-7628D6F7348B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.01 Count of Odd Numbers in Array", "05.01 Count of Odd Numbers in Array\05.01 Count of Odd Numbers in Array.csproj", "{591B5D2E-C1DF-46DB-82F3-572863764660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.01 Odd Numbers at Odd Positions", "06.01 Odd Numbers at Odd Positions\06.01 Odd Numbers at Odd Positions.csproj", "{2DC7CE2A-8A95-461B-AF23-195C47A3DE64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +61,26 @@ Global
 		{53E735D3-E09D-4333-827E-3DCC513FBA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53E735D3-E09D-4333-827E-3DCC513FBA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53E735D3-E09D-4333-827E-3DCC513FBA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BB04E9-AFDB-4249-AA4B-EF53696B1328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BB04E9-AFDB-4249-AA4B-EF53696B1328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BB04E9-AFDB-4249-AA4B-EF53696B1328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BB04E9-AFDB-4249-AA4B-EF53696B1328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EE54D4-6A26-4574-982E-87089D820DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EE54D4-6A26-4574-982E-87089D820DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EE54D4-6A26-4574-982E-87089D820DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EE54D4-6A26-4574-982E-87089D820DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD6B099-5C5F-4D55-A8E7-7628D6F7348B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD6B099-5C5F-4D55-A8E7-7628D6F7348B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD6B099-5C5F-4D55-A8E7-7628D6F7348B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD6B099-5C5F-4D55-A8E7-7628D6F7348B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591B5D2E-C1DF-46DB-82F3-572863764660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591B5D2E-C1DF-46DB-82F3-572863764660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591B5D2E-C1DF-46DB-82F3-572863764660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591B5D2E-C1DF-46DB-82F3-572863764660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC7CE2A-8A95-461B-AF23-195C47A3DE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC7CE2A-8A95-461B-AF23-195C47A3DE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC7CE2A-8A95-461B-AF23-195C47A3DE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC7CE2A-8A95-461B-AF23-195C47A3DE64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

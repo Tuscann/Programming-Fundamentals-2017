@@ -2,7 +2,7 @@
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         char[] charArea = Console.ReadLine().ToCharArray();
         int[] integerArea = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
