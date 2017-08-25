@@ -4,7 +4,7 @@ class Program
 {
     static int[] grapes;
 
-    static void Main()
+    static void Main()  // 100/100
     {
         grapes = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         int n = int.Parse(Console.ReadLine());

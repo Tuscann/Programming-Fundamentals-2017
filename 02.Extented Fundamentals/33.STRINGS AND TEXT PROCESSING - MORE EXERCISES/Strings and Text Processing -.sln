@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.00 Pyramidic", "06.00 Py
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.00 Nilapdromes", "07.00 Nilapdromes\07.00 Nilapdromes.csproj", "{056276FE-22D2-4412-9B7B-75245408A217}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01 String Commander", "04.01 String Commander\04.01 String Commander.csproj", "{7EE2962E-A845-42F6-B98B-60CA5B8136FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.00 Nilapdromes", "08.00 Nilapdromes\08.00 Nilapdromes.csproj", "{A38DBBE3-9910-4B6B-996E-3E353384D7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.01 Nilapdromes", "08.01 Nilapdromes\08.01 Nilapdromes.csproj", "{31265BFA-BEDC-49DE-9890-E11D7A931046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +57,18 @@ Global
 		{056276FE-22D2-4412-9B7B-75245408A217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{056276FE-22D2-4412-9B7B-75245408A217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{056276FE-22D2-4412-9B7B-75245408A217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE2962E-A845-42F6-B98B-60CA5B8136FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE2962E-A845-42F6-B98B-60CA5B8136FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE2962E-A845-42F6-B98B-60CA5B8136FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE2962E-A845-42F6-B98B-60CA5B8136FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38DBBE3-9910-4B6B-996E-3E353384D7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38DBBE3-9910-4B6B-996E-3E353384D7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38DBBE3-9910-4B6B-996E-3E353384D7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38DBBE3-9910-4B6B-996E-3E353384D7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31265BFA-BEDC-49DE-9890-E11D7A931046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31265BFA-BEDC-49DE-9890-E11D7A931046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31265BFA-BEDC-49DE-9890-E11D7A931046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31265BFA-BEDC-49DE-9890-E11D7A931046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class NoteStatistics
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<decimal> input = Console.ReadLine().Split(' ').Select(decimal.Parse).ToList();
 

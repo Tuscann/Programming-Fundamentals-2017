@@ -16,32 +16,32 @@ public class MostValuedCustomer  // 100/100
 
     static void PrintWhoIsBiggerSpender()
     {
-        var biggerSpender = TakeBiggerSpender();
+        Dictionary<string, Dictionary<string, double>> biggerSpender = TakeBiggerSpender();
         Console.WriteLine($"Biggest spender: {biggerSpender.First().Key}");
         Console.WriteLine($"^Products bought:");
-        foreach (var user in biggerSpender)
+        foreach (KeyValuePair<string, Dictionary<string, double>> user in biggerSpender)
         {
-            foreach (var item in user.Value.OrderByDescending(x => x.Value))
+            foreach (KeyValuePair<string, double> item in user.Value.OrderByDescending(x => x.Value))
             {
                 Console.WriteLine($"^^^{item.Key}: {item.Value:F2}");
             }
         }
-        var totalSum = Users.OrderByDescending(x => x.Value.Values.Sum()).First().Value.Values.Sum();
+        double totalSum = Users.OrderByDescending(x => x.Value.Values.Sum()).First().Value.Values.Sum();
         Console.WriteLine($"Total: {totalSum:F2}");
 
     }
 
     static Dictionary<string, Dictionary<string, double>> TakeBiggerSpender()
     {
-        var bigger = new Dictionary<string, Dictionary<string, double>>();
-        var user = string.Empty;
-        foreach (var item in Users.OrderByDescending(x => x.Value.Values.Sum()))
+        Dictionary<string, Dictionary<string, double>> bigger = new Dictionary<string, Dictionary<string, double>>();
+        string user = string.Empty;
+        foreach (KeyValuePair<string, Dictionary<string, double>> item in Users.OrderByDescending(x => x.Value.Values.Sum()))
         {
             user = item.Key;
             break;
         }
         bigger[user] = new Dictionary<string, double>();
-        foreach (var item in Users.OrderByDescending(x => x.Value.Values.Sum()).First().Value)
+        foreach (KeyValuePair<string, double> item in Users.OrderByDescending(x => x.Value.Values.Sum()).First().Value)
         {
             bigger[user][item.Key] = Products[item.Key];
         }
@@ -50,10 +50,10 @@ public class MostValuedCustomer  // 100/100
 
     static void CalculateAllProductsByGivenPrice()
     {
-        var userKeys = Users.Keys.ToArray();
+        string[] userKeys = Users.Keys.ToArray();
         for (int i = 0; i < userKeys.Length; i++)
         {
-            var valueKeys = Users[userKeys[i]].Keys.ToArray();
+            string[] valueKeys = Users[userKeys[i]].Keys.ToArray();
             CalculateCurentUser(userKeys[i], valueKeys);
         }
     }
@@ -77,9 +77,9 @@ public class MostValuedCustomer  // 100/100
 
     static void SplitAndAddToProductCollection(string unsplited)
     {
-        var splited = unsplited.Split();
-        var productName = splited.First();
-        var productPrice = Convert.ToDouble(splited.Last());
+        string[] splited = unsplited.Split();
+        string productName = splited.First();
+        double productPrice = Convert.ToDouble(splited.Last());
         ProductsAdd(productName, productPrice);
     }
 
@@ -111,10 +111,10 @@ public class MostValuedCustomer  // 100/100
 
     static void DecreaseFirstThreeExpensive()
     {
-        var expensives = TakeFirstThree();
+        string[] expensives = TakeFirstThree();
         for (int index = 0; index < expensives.Length; index++)
         {
-            var key = expensives[index];
+            string key = expensives[index];
             Products[key] = Products[key] * 0.9;
         }
     }
@@ -127,9 +127,9 @@ public class MostValuedCustomer  // 100/100
 
     static void SplitAndAddToUsers(string unsplited)
     {
-        var splited = unsplited.Split(new[] { ": ", ", " }, StringSplitOptions.RemoveEmptyEntries);
-        var name = splited.First();
-        var products = splited.Skip(1).ToArray();
+        string[] splited = unsplited.Split(new[] { ": ", ", " }, StringSplitOptions.RemoveEmptyEntries);
+        string name = splited.First();
+        string[] products = splited.Skip(1).ToArray();
         UsersAdd(name, products);
     }
 
@@ -139,7 +139,7 @@ public class MostValuedCustomer  // 100/100
         {
             Users[name] = new Dictionary<string, double>();
         }
-        foreach (var item in collection)
+        foreach (string item in collection)
         {
             if (Products.ContainsKey(item))
             {

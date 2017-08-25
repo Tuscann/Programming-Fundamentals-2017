@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class ArrayHistogram
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         string[] words = Console.ReadLine().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries).ToArray();

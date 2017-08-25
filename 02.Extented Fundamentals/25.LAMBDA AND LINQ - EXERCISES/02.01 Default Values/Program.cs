@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class DefaultValues
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         string inputLine = Console.ReadLine();
 

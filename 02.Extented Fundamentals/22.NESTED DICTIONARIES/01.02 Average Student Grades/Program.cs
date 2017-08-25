@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()            // 100/100
+    static void Main()  // 100/100
     {
         int totalGrades = int.Parse(Console.ReadLine());
 

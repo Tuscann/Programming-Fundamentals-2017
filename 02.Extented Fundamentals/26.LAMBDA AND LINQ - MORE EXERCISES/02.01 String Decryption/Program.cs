@@ -2,7 +2,7 @@
 using System.Linq;
 public class StringDecryption
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         int[] nums = Console.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
         int[] givenArray = Console.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();

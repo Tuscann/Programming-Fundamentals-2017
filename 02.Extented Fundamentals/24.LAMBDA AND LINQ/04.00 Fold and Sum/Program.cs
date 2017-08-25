@@ -2,7 +2,7 @@
 using System.Linq;
 public class FoldAndSum
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         int[] numbers = Console.ReadLine()
             .Split(new char[] { ' ' },

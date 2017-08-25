@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 0/100
     {
-        
         List<int> grapes = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
         int n = int.Parse(Console.ReadLine());
 
@@ -69,7 +68,4 @@ class Program
         }
         return grapes;
     }
-    
-
-   
 }

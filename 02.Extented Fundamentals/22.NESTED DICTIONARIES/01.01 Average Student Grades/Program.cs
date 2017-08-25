@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class AverageStudentGrades
 {
-    static void Main()
+    static void Main() // 100/100
     {
         Dictionary<string, List<double>> allStudents = new Dictionary<string, List<double>>();
         int gradesCount = int.Parse(Console.ReadLine());

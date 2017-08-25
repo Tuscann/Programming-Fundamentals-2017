@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 class cityByContinentAndCountry
 {
-    static void Main()          //   100/100
+    static void Main()  //   100/100
     {
         int count = int.Parse(Console.ReadLine());
         var continentsData = new Dictionary<string, Dictionary<string, List<string>>>();

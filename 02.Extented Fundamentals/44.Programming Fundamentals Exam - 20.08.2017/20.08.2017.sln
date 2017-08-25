@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.03 Trainers", "01.03 Tra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.04 Trainers", "01.04 Trainers\01.04 Trainers.csproj", "{28199190-85C1-4BF8-A207-BDC4C6C20BEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.05 Entertrain", "02.05 Entertrain\02.05 Entertrain.csproj", "{473D66F1-487A-4942-AA56-33C9F0874AC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{28199190-85C1-4BF8-A207-BDC4C6C20BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28199190-85C1-4BF8-A207-BDC4C6C20BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28199190-85C1-4BF8-A207-BDC4C6C20BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473D66F1-487A-4942-AA56-33C9F0874AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473D66F1-487A-4942-AA56-33C9F0874AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473D66F1-487A-4942-AA56-33C9F0874AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473D66F1-487A-4942-AA56-33C9F0874AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class NoteStatistics
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         List<double> realNumbersInput = Console.ReadLine().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries).Select(double.Parse)

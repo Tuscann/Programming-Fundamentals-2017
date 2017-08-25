@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<int> insertionList = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
         string newDigit = Console.ReadLine();

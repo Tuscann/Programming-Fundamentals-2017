@@ -2,27 +2,19 @@
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
-
         int[] input = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         int n = int.Parse(Console.ReadLine());
         bool isFound = true;
 
-        for (int i = 0; i < input.Length; i++)
+        foreach (int t in input)
         {
-            if (input[i] == n)
+            if (t == n)
             {
                 isFound = false;
             }
         }
-        if (isFound)
-        {
-            Console.WriteLine("no");
-        }
-        else
-        {
-            Console.WriteLine("yes");
-        }
+        Console.WriteLine(isFound ? "no" : "yes");
     }
 }

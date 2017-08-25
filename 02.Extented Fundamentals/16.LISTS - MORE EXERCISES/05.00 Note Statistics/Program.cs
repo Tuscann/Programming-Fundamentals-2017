@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<double> input = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
 
         double naturalsSum = 0;
         double sharpSum = 0;
 
-        var notes = new LinkedList<string>();
-        var naturals = new LinkedList<string>();
-        var sharp = new LinkedList<string>();
+        LinkedList<string> notes = new LinkedList<string>();
+        LinkedList<string> naturals = new LinkedList<string>();
+        LinkedList<string> sharp = new LinkedList<string>();
 
         foreach (double note in input)
         {

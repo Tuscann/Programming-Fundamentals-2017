@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 class Program
 {
-    static void Main()  // 100/100 no ne minava nuleviq test
+    static void Main()  // 80/100 
     {
         var dic = new List<string>();
 

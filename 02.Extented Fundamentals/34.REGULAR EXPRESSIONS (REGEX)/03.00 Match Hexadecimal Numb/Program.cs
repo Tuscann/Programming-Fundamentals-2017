@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string pattern = @"\b(?:0x)?[0-9A-F]+\b";
         string input = Console.ReadLine();

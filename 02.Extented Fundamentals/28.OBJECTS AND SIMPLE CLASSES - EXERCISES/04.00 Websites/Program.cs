@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-class Website
-{
-    public string Host { get; set; }
-    public string Domain { get; set; }
-    public List<string> Queries { get; set; }
-}
+
 class Websites
 {
     static void Main() // 100/100
@@ -40,6 +35,12 @@ class Websites
             input = Console.ReadLine();
         }
         return newWebsites;
+    }
+    class Website
+    {
+        public string Host { get; set; }
+        public string Domain { get; set; }
+        public List<string> Queries { get; set; }
     }
 
     static List<string> GetQueries(string[] splitInput)

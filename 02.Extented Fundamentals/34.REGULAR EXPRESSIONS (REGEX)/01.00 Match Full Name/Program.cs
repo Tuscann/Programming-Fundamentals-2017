@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string pattern = @"\b[A-Z]{1}[a-z]{1,} [A-Z]{1}[a-z]{1,}\b";
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Wardrobe_2
 {
-    static void Main()
+    static void Main() // 100/100
     {
         Dictionary<string, Dictionary<string, int>> clothesData = new Dictionary<string, Dictionary<string, int>>();
         int n = int.Parse(Console.ReadLine());

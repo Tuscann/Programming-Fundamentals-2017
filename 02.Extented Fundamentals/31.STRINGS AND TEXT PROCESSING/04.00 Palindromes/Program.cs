@@ -1,15 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _04._00_Palindromes
+class Program
 {
-    class Program
+    static void Main() // 100/100
     {
-        static void Main(string[] args)
+        string[] lineOfWords = Console.ReadLine().Split(new char[] { ' ', ',', '.', '?', '!' },
+            StringSplitOptions.RemoveEmptyEntries);
+
+        List<string> solution = new List<string>();
+
+        foreach (string word in lineOfWords)
         {
+            if (word.SequenceEqual(word.Reverse()) && !solution.Contains(word))
+            {
+                solution.Add(word);
+            }
         }
+        solution.Sort();
+
+        Console.WriteLine(string.Join(", ", solution));
     }
 }

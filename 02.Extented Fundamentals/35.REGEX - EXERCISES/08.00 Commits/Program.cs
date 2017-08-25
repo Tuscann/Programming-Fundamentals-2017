@@ -2,25 +2,6 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-class Commit
-{
-    public string Hash { get; set; }
-
-    public string Message { get; set; }
-
-    public decimal Additions { get; set; }
-
-    public decimal Deletions { get; set; }
-
-    public Commit(string hash, string message, decimal additions, decimal deletions)
-    {
-        Hash = hash;
-        this.Message = message;
-        this.Additions = additions;
-        this.Deletions = deletions;
-    }
-
-}
 public class Program
 {
     public static void Main() // 100/100
@@ -94,4 +75,24 @@ public class Program
             }
         }
     }
+}
+
+class Commit
+{
+    public string Hash { get; set; }
+
+    public string Message { get; set; }
+
+    public decimal Additions { get; set; }
+
+    public decimal Deletions { get; set; }
+
+    public Commit(string hash, string message, decimal additions, decimal deletions)
+    {
+        Hash = hash;
+        this.Message = message;
+        this.Additions = additions;
+        this.Deletions = deletions;
+    }
+
 }

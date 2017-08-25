@@ -1,32 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-public class User
-{
-    public User(string name)
-    {
-        this.Name = name;
-        this.Position = string.Empty;
-        this.Age = -1;
-        this.Salary = -1;
-    }
-
-    public string Name { get; }
-
-    public string Position { get; set; }
-
-    public int Age { get; set; }
-
-    public double Salary { get; set; }
-
-    public override string ToString()
-    {
-        return $"Name: {this.Name}";
-    }
-}
-
 public class Program
 {
-    private static void Main()
+    private static void Main() // 100/100
     {
         string input = Console.ReadLine();
         Dictionary<string, User> withPosition = new Dictionary<string, User>();
@@ -88,5 +64,28 @@ public class Program
                 Console.WriteLine(new string('=', 20));
             }
         }
+    }
+}
+public class User
+{
+    public User(string name)
+    {
+        this.Name = name;
+        this.Position = string.Empty;
+        this.Age = -1;
+        this.Salary = -1;
+    }
+
+    public string Name { get; }
+
+    public string Position { get; set; }
+
+    public int Age { get; set; }
+
+    public double Salary { get; set; }
+
+    public override string ToString()
+    {
+        return $"Name: {this.Name}";
     }
 }

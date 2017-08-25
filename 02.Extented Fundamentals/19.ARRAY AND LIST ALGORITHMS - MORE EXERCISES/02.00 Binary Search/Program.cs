@@ -1,36 +1,86 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-class Program
+
+public class Program
+{
+    static bool isFound;
+    public static void Main() // 100 /100
     {
-        static void Main(string[] args)
+        List<int> list = Console.ReadLine()
+            .Split()
+            .Select(int.Parse)
+            .ToList();
+        int numberToFind = int.Parse(Console.ReadLine());
+
+        int linearSearchCounter = 0;
+        int binarySearchCounter = 0;
+        isFound = false;
+
+        linearSearchCounter = DoLinearSearchAndCountIterations(list, numberToFind, linearSearchCounter);
+        list.Sort();
+        binarySearchCounter = DoBinarySearchAndCountIterations(list, numberToFind, binarySearchCounter);
+
+        if (isFound)
         {
-            var input = Console.ReadLine().Split().Select(int.Parse).ToList();
-            int number = int.Parse(Console.ReadLine());
+            Console.WriteLine("Yes");
+        }
+        else
+        {
+            Console.WriteLine("No");
+        }
 
-            if (input.Contains(number))
+        Console.WriteLine($"Linear search made {linearSearchCounter} iterations");
+        Console.WriteLine($"Binary search made {binarySearchCounter} iterations");
+
+
+    }
+
+    private static int DoBinarySearchAndCountIterations(List<int> list, int numberToFind, int binarySearchCounter)
+    {
+        int left = 0;
+        int right = list.Count - 1;
+
+        isFound = false;
+        while (!isFound)
+        {
+            if (right < left)
             {
-                Console.WriteLine("Yes");
-            }
-            else
-            {
-                Console.WriteLine("No");
+                isFound = false;
+                return binarySearchCounter;
             }
 
-            for (int i = 0; i < input.Count; i++)
+            binarySearchCounter++;
+            int midPoint = left + (right - left) / 2;
+
+            if (list[midPoint] < numberToFind)
             {
-                if (input[i] == number)
-                {
-                    Console.WriteLine("Linear search made {0} iterations", i + 1);
-                }
+                left = midPoint + 1;
             }
-            input.Sort();
-            for (int i = 0; i < input.Count; i++)
+            else if (list[midPoint] > numberToFind)
             {
-                if (input[i] == number)
-                {
-                    Console.WriteLine("Binary search made {0} iterations", i + 1);
-                }
+                right = midPoint - 1;
+            }
+            else if (list[midPoint] == numberToFind)
+            {
+                isFound = true;
             }
         }
+
+        return binarySearchCounter;
     }
+
+    private static int DoLinearSearchAndCountIterations(List<int> list, int numberToFind, int linearSearchCounter)
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            linearSearchCounter++;
+            if (list[i] == numberToFind)
+            {
+                isFound = true;
+                break;
+            }
+        }
+        return linearSearchCounter;
+    }
+}

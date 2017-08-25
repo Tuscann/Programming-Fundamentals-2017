@@ -1,43 +1,49 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
-class Program
+
+public class Program
 {
-    static void Main()
+    public static void Main() // 100/100
     {
-        string searchedKey = Console.ReadLine();
-        string searchedValue = Console.ReadLine();
+        Dictionary<string, List<string>> pairsData = new Dictionary<string, List<string>>();
 
-        int n = int.Parse(Console.ReadLine());
+        string key = Console.ReadLine();
+        string value = Console.ReadLine();
+        int lines = int.Parse(Console.ReadLine());
 
-        var dic = new Dictionary<string, List<string>>();
-
-        for (int i = 0; i < n; i++)
+        for (int count = 0; count < lines; count++)
         {
-            var curent = Console.ReadLine().Split(new string[] { " => " }, StringSplitOptions.None).ToList();
+            string[] currentLine = Console.ReadLine().Split(new[] { ' ', ';' });
 
-            string curentKey = curent[0];
-            
-            var allValues = curent[1].Split(';');
+            string currentKey = currentLine[0];
+            IEnumerable<string> currentValues = currentLine.Skip(2);
 
-            foreach (string curentValue in allValues)
+            if (currentKey.Contains(key))
             {
-                if (curentKey.Contains(searchedKey) && curentValue.Contains(searchedValue))  // if contains searched key and searched value
+                if (!pairsData.ContainsKey(currentKey))
                 {
-                    if (!dic.ContainsKey(curentKey))
+                    pairsData[currentKey] = new List<string>();
+                }
+
+                foreach (string val in currentValues)
+                {
+                    if (value.Contains(val) || val.Contains(value))
                     {
-                        dic[curentKey] = new List<string>();
+                        pairsData[currentKey].Add(val);
                     }
-                    dic[curentKey].Add(curentValue);
                 }
             }
         }
-        foreach (var key11 in dic)
+
+        foreach (KeyValuePair<string, List<string>> item in pairsData)
         {
-            Console.WriteLine("{0}:", key11.Key);
-            foreach (var key22 in key11.Value)
+            Console.WriteLine("{0}:", item.Key);
+
+            foreach (string element in item.Value)
             {
-                Console.WriteLine("-{0}", key22);
+                Console.WriteLine("-{0}", element);
             }
         }
     }

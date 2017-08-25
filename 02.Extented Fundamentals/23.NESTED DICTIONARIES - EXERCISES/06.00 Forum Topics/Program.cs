@@ -1,65 +1,63 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _06._00_Forum_Topics
+public class Program
 {
-    class Program
+    public static void Main() // 100/100
     {
-        static void Main()
+        Dictionary<string, HashSet<string>> forumTopicsData = new Dictionary<string, HashSet<string>>();
+        string currentLine = Console.ReadLine();
+
+        while (currentLine != "filter")
         {
-            Dictionary<string, List<string>> dic = new Dictionary<string, List<string>>();
+            string[] currentData = currentLine
+                .Split(new[] { " -> ", ", " }, StringSplitOptions.RemoveEmptyEntries);
+            string topic = currentData[0];
+            string[] tags = currentData.Skip(1).ToArray();
 
-
-            while (true)
+            if (!forumTopicsData.ContainsKey(topic))
             {
-                string x = Console.ReadLine();
-                if (x == "filter")
-                {
-                    break;
-                }
-                List<string> cuurent = x.Split(new[] { " -> " }, StringSplitOptions.RemoveEmptyEntries).ToList();
-                string topic = cuurent[0];
-                List<string> allTags = cuurent[1].Split(new[] { ",", ", ", " " }, StringSplitOptions.RemoveEmptyEntries).ToList();
-
-                if (!dic.ContainsKey(topic))
-                {
-                    dic[topic] = new List<string>();
-                }
-                dic[topic].AddRange(allTags);
+                forumTopicsData[topic] = new HashSet<string>();
             }
-            List<string> serachedTopics = Console.ReadLine().Split().ToList();
 
+            AddTagsToTopic(forumTopicsData, topic, tags);
 
-            foreach (var topic in dic)
-            {
-                var contains = true;
-
-                foreach (var tag in topic.Value.Distinct())
-                {
-                    foreach (var searchedTopic in serachedTopics)
-                    {
-                        if (!tag.Contains(searchedTopic))
-                        {
-                            contains = false;
-                        }
-                    }
-                }
-                if (contains == false)
-                {
-                    Console.Write("{0} | ", topic.Key);
-
-                    Console.WriteLine("{0}", string.Join(", ", topic.Value.Distinct()));
-                }
-                else
-                {
-                    Console.WriteLine(1);
-                }
-            }
-           
+            currentLine = Console.ReadLine();
         }
 
+        string[] filteredTags = Console.ReadLine().Split(new[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
+
+        PrintTopicsWithFilteredTags(forumTopicsData, filteredTags);
+    }
+
+    static void AddTagsToTopic(
+        Dictionary<string, HashSet<string>> forumTopicsData, string topic, string[] tags)
+    {
+        foreach (string tag in tags)
+        {
+            forumTopicsData[topic].Add($"#{tag}");
+        }
+    }
+
+    static void PrintTopicsWithFilteredTags(
+        Dictionary<string, HashSet<string>> forumTopicsData, string[] filteredTags)
+    {
+        foreach (KeyValuePair<string, HashSet<string>> topic in forumTopicsData)
+        {
+            bool containsAllTags = true;
+
+            foreach (string tag in filteredTags)
+            {
+                if (!topic.Value.Contains($"#{tag}"))
+                {
+                    containsAllTags = false;
+                }
+            }
+
+            if (containsAllTags)
+            {
+                Console.WriteLine($"{topic.Key} | {string.Join(", ", topic.Value)}");
+            }
+        }
     }
 }

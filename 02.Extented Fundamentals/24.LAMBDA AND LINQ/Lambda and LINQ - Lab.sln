@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01 Fold and Sum", "04.01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.02 Fold and Sum", "04.02 Fold and Sum\04.02 Fold and Sum.csproj", "{080EB055-1B1C-4B8D-BE1D-F13280B580C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.01 Min, Max, Sum, Average", "01.01 Min, Max, Sum, Average\01.01 Min, Max, Sum, Average.csproj", "{9EEA8915-D169-445D-ADB5-1AD470D37B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.01 Largest 3 Numbers", "02.01 Largest 3 Numbers\02.01 Largest 3 Numbers.csproj", "{821B4619-3691-46F1-9725-DCC09660186A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{080EB055-1B1C-4B8D-BE1D-F13280B580C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{080EB055-1B1C-4B8D-BE1D-F13280B580C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{080EB055-1B1C-4B8D-BE1D-F13280B580C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEA8915-D169-445D-ADB5-1AD470D37B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEA8915-D169-445D-ADB5-1AD470D37B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEA8915-D169-445D-ADB5-1AD470D37B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEA8915-D169-445D-ADB5-1AD470D37B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821B4619-3691-46F1-9725-DCC09660186A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821B4619-3691-46F1-9725-DCC09660186A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821B4619-3691-46F1-9725-DCC09660186A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821B4619-3691-46F1-9725-DCC09660186A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

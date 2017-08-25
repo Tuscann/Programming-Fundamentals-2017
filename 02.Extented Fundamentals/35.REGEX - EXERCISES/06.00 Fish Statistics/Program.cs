@@ -9,7 +9,7 @@ public class Program
 
         string inputLine = Console.ReadLine();
 
-        var fishes = regex.Matches(inputLine);
+        MatchCollection fishes = regex.Matches(inputLine);
 
         if (fishes.Count == 0)
         {

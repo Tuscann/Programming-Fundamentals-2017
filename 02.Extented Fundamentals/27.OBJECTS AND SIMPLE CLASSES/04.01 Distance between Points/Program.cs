@@ -30,7 +30,7 @@ class Program
 
     public static double CalcDistance(Point firstPoint, Point secondPoint)
     {
-        var hypotenuse = Math.Sqrt(Math.Pow(firstPoint.X - secondPoint.X, 2) + Math.Pow(firstPoint.Y - secondPoint.Y, 2));
+        double hypotenuse = Math.Sqrt(Math.Pow(firstPoint.X - secondPoint.X, 2) + Math.Pow(firstPoint.Y - secondPoint.Y, 2));
         return hypotenuse;
     }
 }

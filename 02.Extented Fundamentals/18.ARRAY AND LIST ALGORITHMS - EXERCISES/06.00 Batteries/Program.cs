@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<double> capacities = Console.ReadLine().Split().Select(double.Parse).ToList();
         List<double> usagePerHour = Console.ReadLine().Split().Select(a => double.Parse(a)).ToList();

@@ -4,25 +4,24 @@ using System.Linq;
 
 public class DistinctList
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
-        var numbers = Console.ReadLine()
+        List<int> numbers = Console.ReadLine()
             .Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries)
             .Select(int.Parse)
             .ToList();
-        var result = RemoveRepeatingElements(numbers);
-
-        //var result = numbers.Distinct();    //The Distinct method more easy
+        List<int> result = RemoveRepeatingElements(numbers);
+        
         Console.WriteLine(string.Join(" ", result));
     }
     static List<int> RemoveRepeatingElements(List<int> numbers)
     {
-        var result = numbers;
+        List<int> result = numbers;
 
         for (int i = 0; i < numbers.Count; i++)
         {
-            var count = 0;
+            int count = 0;
 
             for (int j = 0; j < result.Count; j++)
             {

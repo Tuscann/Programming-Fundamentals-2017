@@ -2,7 +2,7 @@
 using System.Linq;
 public class Winecraft
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         int[] grapes = Console.ReadLine().Split().Select(int.Parse).ToArray();
         int rounds = int.Parse(Console.ReadLine());

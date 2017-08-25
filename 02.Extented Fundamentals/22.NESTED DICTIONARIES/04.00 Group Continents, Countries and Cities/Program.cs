@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         int stopper = int.Parse(Console.ReadLine());
-        var answer = new SortedDictionary<string, SortedDictionary<string, SortedSet<string>>>();
+        SortedDictionary<string, SortedDictionary<string, SortedSet<string>>> answer = new SortedDictionary<string, SortedDictionary<string, SortedSet<string>>>();
         for (int cycle = 0; cycle < stopper; cycle++)
         {
             string[] input = Console.ReadLine().Split();
 
-            var continent = input[0];
-            var country = input[1];
-            var city = input[2];
+            string continent = input[0];
+            string country = input[1];
+            string city = input[2];
 
             if (!answer.Keys.Contains(continent))
             {
@@ -26,10 +26,10 @@ class Program
             answer[continent][country].Add(city);
         }
 
-        foreach (var continent in answer)
+        foreach (KeyValuePair<string, SortedDictionary<string, SortedSet<string>>> continent in answer)
         {
             Console.WriteLine($"{continent.Key}:");
-            foreach (var country in continent.Value)
+            foreach (KeyValuePair<string, SortedSet<string>> country in continent.Value)
             {
                 Console.WriteLine($"  {country.Key} -> {string.Join(", ", country.Value)}");
             }

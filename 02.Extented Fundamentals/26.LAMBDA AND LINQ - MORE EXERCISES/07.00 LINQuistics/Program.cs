@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class LINQuistics
 {
-    static void Main()
+    static void Main() // 100/100
     {
         var data = new Dictionary<string, List<string>>();
 

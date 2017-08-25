@@ -2,16 +2,16 @@
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         var input = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         int minvalue = Int32.MaxValue;
 
-        for (int i = 0; i < input.Length; i++)
+        foreach (int t in input)
         {
-            if (input[i] < minvalue)
+            if (t < minvalue)
             {
-                minvalue = input[i];
+                minvalue = t;
             }
         }
         Console.WriteLine(minvalue);

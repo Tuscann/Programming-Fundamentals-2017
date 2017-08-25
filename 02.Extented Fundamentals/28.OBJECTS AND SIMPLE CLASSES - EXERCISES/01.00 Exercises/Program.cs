@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 class Exercises_P
 {
+    static void Main() // 100/100
+    {
+        List<Exercises> newExercises = new List<Exercises>();
+        newExercises = GetExercises(newExercises);
+        PrintExercises(newExercises);
+    }
     class Exercises
     {
         public string Topic { get; set; }
         public string CourseName { get; set; }
         public string JudgeContestLink { get; set; }
         public List<string> Problems { get; set; }
-    }
-    static void Main() // 100/100
-    {
-        List<Exercises> newExercises = new List<Exercises>();
-        newExercises = GetExercises(newExercises);
-        PrintExercises(newExercises);
     }
     static List<Exercises> GetExercises(List<Exercises> newExercises)
     {

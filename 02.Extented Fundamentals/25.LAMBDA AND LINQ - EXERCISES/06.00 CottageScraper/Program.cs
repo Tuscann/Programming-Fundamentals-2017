@@ -4,21 +4,21 @@ using System.Linq;
 
 public class CottageScraper
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
-        var typeAndLenght = Console.ReadLine()
+        List<string> typeAndLenght = Console.ReadLine()
             .Split(" ->".ToCharArray(),
                 StringSplitOptions.RemoveEmptyEntries)
             .ToList();
 
-        var woodType = new Dictionary<string, List<int>>();
-        var woodCout = 0;
+        Dictionary<string, List<int>> woodType = new Dictionary<string, List<int>>();
+        int woodCout = 0;
 
         // add all woods and lenght we have in dictionery
         while (typeAndLenght[0] != "chop")
         {
-            var woodName = typeAndLenght[0];
-            var woodHeight = int.Parse(typeAndLenght[1]);
+            string woodName = typeAndLenght[0];
+            int woodHeight = int.Parse(typeAndLenght[1]);
 
             if (!woodType.ContainsKey(woodName))
             {
@@ -36,15 +36,15 @@ public class CottageScraper
         }
 
         
-        var typeOfTree = Console.ReadLine();                // name of wood we need and minnimum lenght
-        var minLenght = int.Parse(Console.ReadLine());
+        string typeOfTree = Console.ReadLine();                // name of wood we need and minnimum lenght
+        int minLenght = int.Parse(Console.ReadLine());
 
-        var pricePerMeter = 0d;
+        double pricePerMeter = 0d;
 
-        foreach (var wood in woodType)
+        foreach (KeyValuePair<string, List<int>> wood in woodType)
         {
-            var name = wood.Key;
-            var value = wood.Value;
+            string name = wood.Key;
+            List<int> value = wood.Value;
 
             for (int i = 0; i < value.Count; i++)
             {
@@ -52,29 +52,28 @@ public class CottageScraper
             }
         }
 
-        var allLogs = pricePerMeter;
+        double allLogs = pricePerMeter;
 
         pricePerMeter = Math.Round(pricePerMeter / woodCout, 2);
 
         // finde the price of ussed logs
-        var usedLogs = woodType
+        int usedLogs = woodType
             .Where(u => u.Key == typeOfTree)
             .SelectMany(u => u.Value)
             .Where(u => u >= minLenght)
             .Sum();
 
-        var allUnusedLogs = allLogs - usedLogs;
+        double allUnusedLogs = allLogs - usedLogs;
 
-        var usedLogPrice = Math.Round((usedLogs * pricePerMeter), 2);
+        double usedLogPrice = Math.Round((usedLogs * pricePerMeter), 2);
         
         // find the price of unsedlogs
 
-        var priceForUnUsuedLogs = Math.Round((allUnusedLogs * pricePerMeter * 0.25), 2);
-
-
+        double priceForUnUsuedLogs = Math.Round((allUnusedLogs * pricePerMeter * 0.25), 2);
+        
         //find the subtotal price
 
-        var subTotal = usedLogPrice + priceForUnUsuedLogs;
+        double subTotal = usedLogPrice + priceForUnUsuedLogs;
 
         Console.WriteLine($"Price per meter: ${pricePerMeter:f2}");
         Console.WriteLine($"Used logs price: ${usedLogPrice:f2}");

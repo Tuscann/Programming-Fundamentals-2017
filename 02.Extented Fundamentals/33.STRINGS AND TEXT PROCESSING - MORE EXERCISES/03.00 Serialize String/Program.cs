@@ -1,15 +1,34 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03._00_Serialize_String
+public class Program
 {
-    class Program
+    public static void Main() // 100/100
     {
-        static void Main(string[] args)
+        string line = Console.ReadLine();
+
+        string passed = string.Empty;
+
+        for (int i = 0; i < line.Length; i++)
         {
+            if (!passed.Contains(line[i]))
+            {
+                string output = line[i] + ":";
+                int index = 0;
+                for (int j = 0; j < line.Length; j++)
+                {
+                    index = line.IndexOf(line[i], index);
+                    if (index == -1)
+                    {
+                        break;
+                    }
+
+                    output += index + "/";
+                    index++;
+                }
+
+                Console.WriteLine(output.Trim('/'));
+                passed += line[i];
+            }
         }
     }
 }

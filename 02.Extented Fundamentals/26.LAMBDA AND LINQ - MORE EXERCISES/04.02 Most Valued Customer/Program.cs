@@ -5,8 +5,8 @@ class MostValuedCustomer
 {
     static void Main()  // 100/100
     {
-        var productsData = new Dictionary<string, double>();
-        var customerData = new Dictionary<string, List<string>>();
+        Dictionary<string, double> productsData = new Dictionary<string, double>();
+        Dictionary<string, List<string>> customerData = new Dictionary<string, List<string>>();
 
         string input = Console.ReadLine();
         while (input != "Shop is open")
@@ -27,13 +27,13 @@ class MostValuedCustomer
 
             if (inputTokens[0] == "Discount")
             {
-                var discountedProducts = productsData
+                IEnumerable<KeyValuePair<string, double>> discountedProducts = productsData
                     .OrderByDescending(pd => pd.Value)
                     .Take(3)
                     .Select(pd =>
                         new KeyValuePair<string, double>(pd.Key, pd.Value * 0.9));
 
-                foreach (var discountedProduct in discountedProducts)
+                foreach (KeyValuePair<string, double> discountedProduct in discountedProducts)
                 {
                     productsData[discountedProduct.Key] = discountedProduct.Value;
                 }
@@ -60,7 +60,7 @@ class MostValuedCustomer
             input = Console.ReadLine();
         }
 
-        var topCustomer = customerData
+        KeyValuePair<string, List<string>> topCustomer = customerData
             .OrderByDescending(d => d.Value.Sum(product => productsData[product]))
             .First();
 
@@ -71,9 +71,9 @@ class MostValuedCustomer
 
         double total = productsBought.Sum(p => productsData[p]);
 
-        var orderedProducts = productsBought.Distinct().OrderByDescending(p => productsData[p]);
+        IOrderedEnumerable<string> orderedProducts = productsBought.Distinct().OrderByDescending(p => productsData[p]);
 
-        foreach (var product in orderedProducts)
+        foreach (string product in orderedProducts)
         {
             Console.WriteLine("^^^{0}: {1:F2}", product, productsData[product]);
         }

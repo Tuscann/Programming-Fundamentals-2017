@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string pattern = @"\b(?<day>[0-9]{2})(\/|-|.)(?<month>[A-Z][a-z]{2})\1(?<year>[0-9]{4})\b";
         //string pattern = @"\b(?<day>\d{2})([\/.-])(?<month>[A-Z][a-z]{2})\1(?<year>\d{4})\b";

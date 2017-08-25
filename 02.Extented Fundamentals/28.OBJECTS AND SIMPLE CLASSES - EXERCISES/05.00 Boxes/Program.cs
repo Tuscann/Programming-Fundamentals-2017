@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-class Point
+class Point 
 {
     public int X { get; set; }
     public int Y { get; set; }
@@ -17,7 +17,7 @@ class Point
     }
 }
 
-class Box
+class Box 
 {
     public Point UpperLeft { get; set; }
     public Point UpperRight { get; set; }
@@ -75,7 +75,7 @@ class Boxes
         PrintBoxes(boxesList);
     }
 
-    static void PrintBoxes(List<Box> boxesList)
+    static void PrintBoxes(List<Box> boxesList) 
     {
         foreach (Box box in boxesList)
         {

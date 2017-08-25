@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class RabbitHole
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         List<string> commands = Console.ReadLine().Split().ToList();
 

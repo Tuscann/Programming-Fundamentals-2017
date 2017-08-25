@@ -1,60 +1,97 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 class Program
 {
-    static void Main()
+    static void Main() /// 100/100
     {
-        Dictionary<string, Dictionary<string, List<double>>> dic = new Dictionary<string, Dictionary<string, List<double>>>();
-        while (true)
+        string[] line = Console.ReadLine()
+            .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+        Dictionary<string, int> age = new Dictionary<string, int>();
+        Dictionary<string, decimal> salary = new Dictionary<string, decimal>();
+        Dictionary<string, string> position = new Dictionary<string, string>();
+
+        while (line[0] != "filter")
         {
+            string name = line[0];
+            string dataToStore = line[2];
 
-            List<string> curentrow = Console.ReadLine().Split(' ').ToList();
-            if (curentrow[0] + curentrow[1] == "filterbase")
+            int employeeAge = 0;
+            decimal employeeSalary = 0m;
+
+            if (int.TryParse(dataToStore, out employeeAge))
             {
-                break;
+                if (!age.ContainsKey(name))
+                {
+                    age[name] = 0;
+                }
+                age[name] = employeeAge;
             }
-            string name = curentrow[0];
-
-            int x1 = 0;
-            double x2 = 0;
-            bool integer = int.TryParse(curentrow[2], out x1);
-            bool doouble = double.TryParse(curentrow[2], out x2);
-            string x3;
-
-            if (integer)
+            else if (decimal.TryParse(dataToStore, out employeeSalary))
             {
-                Console.WriteLine(integer);
+                if (!salary.ContainsKey(name))
+                {
+                    salary[name] = 0m;
+                }
+                salary[name] = employeeSalary;
             }
-            if (doouble)
+            else
             {
-                Console.WriteLine(doouble);
-            }
-            
-
-
-
-
-
-            if (!dic.ContainsKey(name))
-            {
-                dic[name] = new Dictionary<string, List<double>>();
-                //dic[name].Add();
+                if (!position.ContainsKey(name))
+                {
+                    position[name] = string.Empty;
+                }
+                position[name] = dataToStore;
             }
 
-
+            line = Console.ReadLine()
+                .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
         }
-        string comand = Console.ReadLine();
 
+        line = Console.ReadLine()
+            .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
+        switch (line[0])
+        {
+            case "Position":
+                Print(position);
+                break;
+            case "Age":
+                Print(age);
+                break;
+            case "Salary":
+                Print(salary);
+                break;
+        }
+    }
 
+    static void Print(Dictionary<string, int> personData)
+    {
+        foreach (KeyValuePair<string, int> person in personData)
+        {
+            Console.WriteLine($"Name: {person.Key}");
+            Console.WriteLine($"Age: {person.Value}");
+            Console.WriteLine(new string('=', 20));
+        }
+    }
 
+    static void Print(Dictionary<string, decimal> personData)
+    {
+        foreach (KeyValuePair<string, decimal> person in personData)
+        {
+            Console.WriteLine($"Name: {person.Key}");
+            Console.WriteLine($"Salary: {person.Value:f2}");
+            Console.WriteLine(new string('=', 20));
+        }
+    }
 
-        Console.WriteLine("{0}", new string('=', 20));
-
-
+    static void Print(Dictionary<string, string> personData)
+    {
+        foreach (KeyValuePair<string, string> person in personData)
+        {
+            Console.WriteLine($"Name: {person.Key}");
+            Console.WriteLine($"Position: {person.Value}");
+            Console.WriteLine(new string('=', 20));
+        }
     }
 }
-

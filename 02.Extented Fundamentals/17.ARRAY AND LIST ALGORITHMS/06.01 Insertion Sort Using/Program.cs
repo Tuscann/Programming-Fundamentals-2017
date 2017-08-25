@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class InsertionSortWithList
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<int> list = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
         List<int> sortedList = new List<int>();

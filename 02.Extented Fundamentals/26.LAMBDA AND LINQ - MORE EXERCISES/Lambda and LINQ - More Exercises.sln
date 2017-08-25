@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.01 Ordered Banking Syste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{938E7709-F536-450C-BD29-D5DB1439A205}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.01 LINQuistics", "07.01 LINQuistics\07.01 LINQuistics.csproj", "{D3DB5231-FE19-4CC0-B325-69412E3D51FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{938E7709-F536-450C-BD29-D5DB1439A205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{938E7709-F536-450C-BD29-D5DB1439A205}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{938E7709-F536-450C-BD29-D5DB1439A205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DB5231-FE19-4CC0-B325-69412E3D51FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DB5231-FE19-4CC0-B325-69412E3D51FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DB5231-FE19-4CC0-B325-69412E3D51FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DB5231-FE19-4CC0-B325-69412E3D51FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

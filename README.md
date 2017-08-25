@@ -42,14 +42,14 @@ The course covers source control systems, **Git** and **GitHub** for team collab
 34. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/34.EXAM%20PREPARATION%20II"> EXAM PREPARATION II</a>
 35. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/35.EXAM%20PREPARATION%20III"> EXAM PREPARATION III </a>
 36. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/36.EXAM%20PREPARATION%20IV"> EXAM PREPARATION IV </a>
-37. <a href=""> </a>
-38. <a href=""> </a>
-39. <a href=""> PRACTICAL EXAM - 12.06.2016</a>
-40. <a href=""> PRACTICAL EXAM - 11.09.2016</a>
-41. <a href=""> PRACTICAL EXAM - 23.10.2016</a>
-42. <a href=""> PRACTICAL EXAM - 06.01.2017</a>
-43. <a href=""> PRACTICAL EXAM - 26.02.2017</a>
-44. <a href=""> PRACTICAL EXAM - 09.07.2017</a>
+37. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/37.(Old)%20Progr.%20Fundamentals%20Sample%20Exam%20-%20April%202016">(Old) Progr. Fundamentals Sample Exam - April 2016 </a>
+38. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/38%20PRACTICAL%20EXAM%20-%2024.04.2016">PRACTICAL EXAM - 24.04.2016 </a>
+39. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/39.PRACTICAL%20EXAM%20-%2012.06.2016"> PRACTICAL EXAM - 12.06.2016</a>
+40. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/40.PRACTICAL%20EXAM%20-%2011.09.2016"> PRACTICAL EXAM - 11.09.2016</a>
+41. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/41.PRACTICAL%20EXAM%20-%2023.10.2016"> PRACTICAL EXAM - 23.10.2016</a>
+42. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/42.PRACTICAL%20EXAM%20-%2006.01.2017"> PRACTICAL EXAM - 06.01.2017</a>
+43. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/43.PRACTICAL%20EXAM%20-%2026.02.2017"> PRACTICAL EXAM - 26.02.2017</a>
+44. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/01.Short%20Fundamentals/44.PRACTICAL%20EXAM%20-%2009.07.2017"> PRACTICAL EXAM - 09.07.2017</a>
 45. <a href=""> PRACTICAL EXAM - 04.09.2017</a>
 
 ## <b><a href="https://softuni.bg/trainings/1618/programming-fundamentals-extended-may-2017" >Programming Fundamentals - Extended - май 2017</a></b> Exercises and labs.
@@ -81,7 +81,7 @@ The course covers source control systems, **Git** and **GitHub** for team collab
 26. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/26.LAMBDA%20AND%20LINQ%20-%20MORE%20EXERCISES"> Lambda and LINQ - More Exercises </a>
 27. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/27.OBJECTS%20AND%20SIMPLE%20CLASSES"> Objects and Simple Classes </a>
 28. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/28.OBJECTS%20AND%20SIMPLE%20CLASSES%20-%20EXERCISES"> Objects and Simple Classes - Exercises </a>
-29. <a href=""> Files, Directories and Exceptions </a>
+29. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/29.FILES%2C%20DIRECTORIES%20AND%20EXCEPTIONS"> Files, Directories and Exceptions </a>
 30. <a href=""> Files and Exceptions - Exercises </a>
 31. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/31.STRINGS%20AND%20TEXT%20PROCESSING"> Strings and Text Processing </a>
 32. <a href="https://github.com/Tuscann/Programming-Fundamentals-2017/tree/master/02.Extented%20Fundamentals/32.STRINGS%20AND%20TEXT%20PROCESSING%20-%20EXERCISES"> Strings and Text Processing - Exercises </a>

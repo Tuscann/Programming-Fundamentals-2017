@@ -2,7 +2,7 @@
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         int[] arrayOfNumbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         int neededDigit = int.Parse(Console.ReadLine());
@@ -22,6 +22,5 @@ class Program
         {
             Console.WriteLine("no");
         }
-
     }
 }

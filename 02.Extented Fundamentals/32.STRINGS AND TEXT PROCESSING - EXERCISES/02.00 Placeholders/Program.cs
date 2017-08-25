@@ -1,48 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-class Program
+public class Program
 {
-    static void Main()
+    public static void Main() // 100/100
     {
-        //string patterAfter = @"->([a-z, ]*)";
-        //string patterPlaceHolders = @"({[0-9]})";
-        List<string> list = new List<string>();
+        string inputLine = Console.ReadLine();
 
-        while (true)
+        while (inputLine != "end")
         {
-            string current = Console.ReadLine();
-            if (current == "end")
+            string[] tokens = inputLine
+                .Split(new string[] { " -> " }, StringSplitOptions.RemoveEmptyEntries);
+            string sentence = tokens[0];
+            string[] placeholders = tokens[1]
+                .Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
+
+            for (int i = 0; i < placeholders.Length; i++)
             {
-                break;
+                string currentPlaceholder = "{" + i + "}";
+                sentence = sentence.Replace(currentPlaceholder, placeholders[i]);
             }
-            List<string> x = current.Split().ToList();
-            string empty = String.Empty;
 
-            foreach (string word in x)
-            {
-                if (word == "->")
-                {
+            Console.WriteLine(sentence);
 
-                    break;
-                }
-                empty += word + " ";
-            }
-            list.Add(empty);
-            int index = current.IndexOf("->");
-            List<char> after = current.Skip(index + 2).ToList();
-            Console.WriteLine(string.Join("", after));
-
-
-
-
-
+            inputLine = Console.ReadLine();
         }
-
-
     }
 }
-

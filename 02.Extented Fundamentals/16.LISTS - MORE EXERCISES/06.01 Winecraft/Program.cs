@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 class Winecraft
 {
-    static void Main()
+    static void Main()   // 88/100
     {
-        // 88/100
-
         List<int> grapes = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
         List<int> positionsGreats = new List<int>();
         List<int> positionsLesser = new List<int>();

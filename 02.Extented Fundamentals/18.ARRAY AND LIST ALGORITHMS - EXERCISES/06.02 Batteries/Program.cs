@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class Batteries
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         double[] capacity = Console.ReadLine().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries).Select(double.Parse).ToArray();

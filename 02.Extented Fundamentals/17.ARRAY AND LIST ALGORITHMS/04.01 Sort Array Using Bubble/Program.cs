@@ -2,7 +2,7 @@
 using System.Linq;
 class SortArrayBubbleSort
 {
-    static void Main()
+    static void Main() // 100/100
     {
         int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 

@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _06._00_Sentence_Sp
+public class Program
 {
-    class Program
+    public static void Main()  // 100/100
     {
-        static void Main(string[] args)
-        {
-        }
+        string sentence = Console.ReadLine();
+        string delimiter = Console.ReadLine();
+
+        sentence = sentence.Replace(delimiter, "papoi");
+
+        string[] elements = sentence.Split(new string[] { "papoi" }, StringSplitOptions.None);
+
+        Console.WriteLine("[" + string.Join(", ", elements) + "]");
     }
 }

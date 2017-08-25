@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 60/100
     {
         var dic = new Dictionary<string, string>();
 

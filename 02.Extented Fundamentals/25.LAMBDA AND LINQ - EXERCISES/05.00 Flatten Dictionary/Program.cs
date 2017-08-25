@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 20/100
     {
         Dictionary<string, Dictionary<string, Dictionary<string, bool>>> dic = new Dictionary<string, Dictionary<string, Dictionary<string, bool>>>();
 
@@ -34,10 +34,6 @@ class Program
             {
                 dic[tv][model][place] = true;
             }
-
-
-
-
             if (curentRow[0] == "flatten")
             {
 

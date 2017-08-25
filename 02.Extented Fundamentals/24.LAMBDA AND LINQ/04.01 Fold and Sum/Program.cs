@@ -2,7 +2,7 @@
 using System.Linq;
 class FoldAndSum
 {
-    static void Main()
+    static void Main() // 100/100
     {
         int[] arr = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         int k = arr.Length / 4;

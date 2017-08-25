@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. 02 Capitalize Words", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. 03 Capitalize Words", "07. 03 Capitalize Words\07. 03 Capitalize Words.csproj", "{FF4825BE-D9D2-46A7-B7FF-E755BA20A7BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01 JSON Stringify", "03.01 JSON Stringify\03.01 JSON Stringify.csproj", "{DD7F2F05-C697-426F-BEAE-B6764D0E514F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01 JSON Parse", "04.01 JSON Parse\04.01 JSON Parse.csproj", "{57E46A02-92CA-455B-93D1-2EC5DB8A70B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{FF4825BE-D9D2-46A7-B7FF-E755BA20A7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF4825BE-D9D2-46A7-B7FF-E755BA20A7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF4825BE-D9D2-46A7-B7FF-E755BA20A7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7F2F05-C697-426F-BEAE-B6764D0E514F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7F2F05-C697-426F-BEAE-B6764D0E514F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7F2F05-C697-426F-BEAE-B6764D0E514F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7F2F05-C697-426F-BEAE-B6764D0E514F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E46A02-92CA-455B-93D1-2EC5DB8A70B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E46A02-92CA-455B-93D1-2EC5DB8A70B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E46A02-92CA-455B-93D1-2EC5DB8A70B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E46A02-92CA-455B-93D1-2EC5DB8A70B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

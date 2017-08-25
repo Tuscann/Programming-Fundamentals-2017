@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         string pattern = @"(^|(?<=\s))-?\d+(\.\d+)?($|(?=\s))";
 

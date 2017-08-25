@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
-        var dic = new Dictionary<string, string>();
+        Dictionary<string, string> dic = new Dictionary<string, string>();
         int counter = 0;
 
         while (true)
         {
-            var currentRow = Console.ReadLine().Split().ToList();
+            List<string> currentRow = Console.ReadLine().Split().ToList();
 
             if (currentRow[0] == "login")
             {
@@ -23,7 +23,7 @@ class Program
         }
         while (true)
         {
-            var currentRow = Console.ReadLine().Split().ToList();
+            List<string> currentRow = Console.ReadLine().Split().ToList();
             if (currentRow[0] == "end")
             {
                 break;

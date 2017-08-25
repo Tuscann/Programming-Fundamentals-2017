@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class MirrorImage
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<string> input = Console.ReadLine().Split(' ').ToList();
         string n = Console.ReadLine();

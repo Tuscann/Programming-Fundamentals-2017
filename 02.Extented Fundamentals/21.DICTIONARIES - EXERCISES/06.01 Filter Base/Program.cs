@@ -1,42 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-
 public class FilterBase
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
-        var inputData = Console.ReadLine();
+        string inputData = Console.ReadLine();
 
-        var ageDictionary = new Dictionary<string, int>();
-        var salaryDictionary = new Dictionary<string, double>();
-        var positionDictionary = new Dictionary<string, string>();
+        Dictionary<string, int> ageDictionary = new Dictionary<string, int>();
+        Dictionary<string, double> salaryDictionary = new Dictionary<string, double>();
+        Dictionary<string, string> positionDictionary = new Dictionary<string, string>();
 
         while (inputData != "filter base")
         {
-            var input = inputData.Split(" ->".ToCharArray(),StringSplitOptions.RemoveEmptyEntries);
+            string[] input = inputData.Split(" ->".ToCharArray(),StringSplitOptions.RemoveEmptyEntries);
 
-            var name = input[0];
-            var valueData = input[1];
+            string name = input[0];
+            string valueData = input[1];
 
-            var age = 0;
-            var salary = 0.0;
-            var position = string.Empty;
-            bool isPosition = true;
+            int age = 0;
+            double salary = 0.0;
+            string position = string.Empty;
+            
 
             if (int.TryParse(valueData, out age))
             {
                 age = int.Parse(valueData);
                 ageDictionary[name] = age;
-                isPosition = false;
+                
             }
             else if (double.TryParse(valueData, out salary))
             {
                 salary = double.Parse(valueData);
                 salaryDictionary[name] = salary;
-                isPosition = false;
             }
-            else if (isPosition)
+            else 
             {
                 position = valueData;
                 positionDictionary[name] = position;
@@ -61,10 +58,10 @@ public class FilterBase
 
     static void OutputResult(Dictionary<string, double> dictionary)
     {
-        foreach (var kvp in dictionary)
+        foreach (KeyValuePair<string, double> kvp in dictionary)
         {
-            var name = kvp.Key;
-            var valueOutput = kvp.Value;
+            string name = kvp.Key;
+            double valueOutput = kvp.Value;
 
             Console.WriteLine($"Name: {name}");
             Console.WriteLine($"Salary: {valueOutput:f2}");
@@ -74,10 +71,10 @@ public class FilterBase
 
     static void OutputResult(Dictionary<string, int> dictionary)
     {
-        foreach (var kvp in dictionary)
+        foreach (KeyValuePair<string, int> kvp in dictionary)
         {
-            var name = kvp.Key;
-            var valueOutput = kvp.Value;
+            string name = kvp.Key;
+            int valueOutput = kvp.Value;
 
             Console.WriteLine($"Name: {name}");
             Console.WriteLine($"Age: {valueOutput}");
@@ -87,10 +84,10 @@ public class FilterBase
 
     static void OutputResult(Dictionary<string, string> dictionary)
     {
-        foreach (var kvp in dictionary)
+        foreach (KeyValuePair<string, string> kvp in dictionary)
         {
-            var name = kvp.Key;
-            var valueOutput = kvp.Value;
+            string name = kvp.Key;
+            string valueOutput = kvp.Value;
 
             Console.WriteLine($"Name: {name}");
             Console.WriteLine($"Position: {valueOutput}");

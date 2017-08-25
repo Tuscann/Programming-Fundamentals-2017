@@ -2,7 +2,7 @@
 using System.Linq;
 public class SortArrayOfStrings
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         string[] arrayOfStrings = Console.ReadLine().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries).ToArray();

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 public class ExamShopping
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         var shoppingCommand = Console.ReadLine();
         var productsInShop = new Dictionary<string, int>();

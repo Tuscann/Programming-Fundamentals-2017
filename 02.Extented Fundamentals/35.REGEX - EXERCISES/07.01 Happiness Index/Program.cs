@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 public class Program
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         string happyPattern = @"(:\)|:D|;\)|:\*|:]|;]|:}|;}|\(:|\*:|c:|\[:|\[;)";
         string sadPattern = @"(:\(|D:|;\(|:\[|;\[|:{|;{|\):|:c|\]:|\];)";

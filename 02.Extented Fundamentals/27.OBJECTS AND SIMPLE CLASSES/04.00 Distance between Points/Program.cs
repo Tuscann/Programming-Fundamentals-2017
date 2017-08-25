@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Linq;
-class Point    // 100/100
-{
-    public double X { get; set; }
-    public double Y { get; set; }
-}
+
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         int[] first = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         int[] secound = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
@@ -24,4 +20,9 @@ class Program
         var hypotenuse = Math.Sqrt(Math.Pow(firstPoint.X - secondPoint.X, 2) + Math.Pow(firstPoint.Y - secondPoint.Y, 2));
         return hypotenuse;
     }
+}
+class Point
+{
+    public double X { get; set; }
+    public double Y { get; set; }
 }

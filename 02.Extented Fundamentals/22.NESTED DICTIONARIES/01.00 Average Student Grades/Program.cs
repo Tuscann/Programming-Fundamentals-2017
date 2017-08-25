@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         Dictionary<string, List<double>> dic = new Dictionary<string, List<double>>();
         int n = int.Parse(Console.ReadLine());
@@ -29,9 +29,9 @@ class Program
         {
             Console.Write("{0} -> ", namee.Key);
 
-            for (int index = 0; index < namee.Value.Count; index++)
+            foreach (double t in namee.Value)
             {
-                Console.Write("{0:f2} ", namee.Value[index]);
+                Console.Write("{0:f2} ", t);
             }
             Console.WriteLine("(avg: {0:f2})", namee.Value.Average());
         }

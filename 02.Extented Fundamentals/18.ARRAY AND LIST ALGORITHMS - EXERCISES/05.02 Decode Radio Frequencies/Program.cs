@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class DecodeRadioFrequencies
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         decimal[] realNumberInput = Console.ReadLine().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries).Select(decimal.Parse).ToArray();

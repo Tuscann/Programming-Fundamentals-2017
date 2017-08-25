@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 class Program
 {
-    static void Main()
+    static void Main() // 50/100
     {
         List<int> inputs = Console.ReadLine().Split().Select(int.Parse).ToList();
         List<string> output = new List<string>();

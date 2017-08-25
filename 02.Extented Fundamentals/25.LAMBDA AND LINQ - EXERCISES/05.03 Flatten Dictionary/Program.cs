@@ -12,7 +12,7 @@ public class FlattenDictionary
     static Dictionary<string, Dictionary<string, string>> flattedCollection =
         new Dictionary<string, Dictionary<string, string>>();
 
-    public static void Main()
+    public static void Main() // 100/100
     {
         ReadNextLinesUntillEnd(Console.ReadLine());
         PrintByGivenOrder();

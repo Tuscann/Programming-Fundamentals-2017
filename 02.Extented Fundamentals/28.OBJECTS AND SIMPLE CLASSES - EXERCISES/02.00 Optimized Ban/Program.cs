@@ -1,13 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-class BankAccount
-{
-    public string Bank { get; set; }
-    public string AccountName { get; set; }
-    public decimal Balance { get; set; }
-}
-
 class OptimizedBankingSystem
 {
     static void Main() // 100/100
@@ -51,4 +44,10 @@ class OptimizedBankingSystem
             Console.WriteLine("{0} -> {1} ({2})", name, balance, bank);
         }
     }
+}
+class BankAccount
+{
+    public string Bank { get; set; }
+    public string AccountName { get; set; }
+    public decimal Balance { get; set; }
 }

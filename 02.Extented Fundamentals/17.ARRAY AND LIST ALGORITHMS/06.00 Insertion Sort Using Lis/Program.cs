@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<int> arrayToBeSorted = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
         for (int currentElement = 0; currentElement < arrayToBeSorted.Count - 1; currentElement++)

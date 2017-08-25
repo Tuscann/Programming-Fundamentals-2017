@@ -1,50 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text.RegularExpressions;
-class Program
-{
-    static void Main()  // 20/100
-    {
-        while (true)
+public class Program
+{ 
+    public static void Main()  // 100/100
+    { 
+        string inputLine = Console.ReadLine();
+
+        while (inputLine != "end")
         {
-            var current = Console.ReadLine();
-
-            if (current == "end")
+            string[] elements = inputLine.Trim()
+                .Split(new[] { ' ', '.', ',', ':', ';', '?', '!', '-', '_' },
+                    StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i < elements.Length; i++)
             {
-                break;
-            }
-            var pattern = @"([A-z\’]{1,})[.|!| ]?";
-            var matches = Regex.Matches(current, pattern);
+                string word = elements[i].ToLower();
+                string firstLetter = word[0].ToString().ToUpper();
 
-            var list = new List<string>();
-
-            foreach (Match match in matches)
-            {
-                list.Add(match.ToString().ToLower());
+                elements[i] = firstLetter + word.Substring(1);
             }
+            Console.WriteLine(string.Join(", ", elements));
 
-            int counter = 0;
-            foreach (var word in list)
-            {
-                for (int i = 0; i < word.Length - 1; i++)
-                {
-                    if (i == 0)
-                    {
-                        Console.Write(word[i].ToString().ToUpper());
-                    }
-                    else
-                    {
-                        Console.Write(word[i].ToString());
-                    }
-                }
-                counter++;
-                if (list.Count == counter)
-                {
-                    break;
-                }
-                Console.Write(", ");
-            }
-            Console.WriteLine();
+            inputLine = Console.ReadLine();
         }
     }
 }

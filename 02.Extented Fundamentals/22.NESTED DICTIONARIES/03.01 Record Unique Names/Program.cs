@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 class RecordUniqueNames
 {
-    static void Main()
+    static void Main()  // 100/100
     {
         HashSet<string> names = new HashSet<string>();
         int inputCnt = int.Parse(Console.ReadLine());

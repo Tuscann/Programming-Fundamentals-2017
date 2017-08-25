@@ -1,15 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _02._00_Diamond_Problem
+using System.Text.RegularExpressions;
+public class Program
 {
-    class Program
+    public static void Main() // 100/100
     {
-        static void Main(string[] args)
+        string line = Console.ReadLine();
+        MatchCollection diamonds = Regex.Matches(line, @"<[^<>]+>");
+
+        if (diamonds.Count > 0)
         {
+            foreach (Match diamond in diamonds)
+            {
+                MatchCollection validMatches = Regex.Matches(diamond.Value, @"\d+");
+                string carats = string.Empty;
+
+                foreach (Match validMatch in validMatches)
+                {
+                    carats += validMatch.Value;
+                }
+
+                int sumOfCarats = 0;
+                for (int i = 0; i < carats.Length; i++)
+                {
+                    sumOfCarats += int.Parse(carats[i].ToString());
+                }
+
+                Console.WriteLine($"Found {sumOfCarats} carat diamond");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Better luck next time");
         }
     }
 }

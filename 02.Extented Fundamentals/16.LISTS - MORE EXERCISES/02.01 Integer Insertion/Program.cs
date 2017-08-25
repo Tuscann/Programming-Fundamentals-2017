@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class IntegerInsertion
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         List<int> inputListOfNumbers = Console.ReadLine().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries)

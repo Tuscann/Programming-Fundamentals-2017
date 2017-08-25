@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class LambadaExpressions
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         var collection = new Dictionary<string, string>();
         var enteredLine = Console.ReadLine().Split(" =>".ToCharArray(), StringSplitOptions.RemoveEmptyEntries).ToList();

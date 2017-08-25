@@ -10,7 +10,7 @@ public class BoomingCannon
     static bool isFirst = true;
     static string targetsShotedDown = string.Empty;
 
-    public static void Main()
+    public static void Main()  // 100/100
     {
         parameters = ConvertToIntegerArray(Console.ReadLine());
         startIndex = parameters[0];

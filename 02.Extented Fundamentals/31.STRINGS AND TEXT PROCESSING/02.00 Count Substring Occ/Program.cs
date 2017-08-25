@@ -1,15 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _02._00_Count_Substring_Occ
+class Program
 {
-    class Program
+    static void Main() // 100/100
     {
-        static void Main(string[] args)
+        string text = Console.ReadLine().ToLower();
+        string word = Console.ReadLine().ToLower();
+        int count = 0;
+        int lastIndex = -1;
+
+        while (true)
         {
+            int index = text.IndexOf(word, lastIndex + 1);
+            if (index != -1)
+            {
+                count++;
+                lastIndex = index;
+            }
+            else
+            {
+                break;
+            }
         }
+        Console.WriteLine(count);
     }
 }

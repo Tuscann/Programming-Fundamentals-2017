@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         List<string> noteStatistics = new List<string>
             { "C", "261.63","C#" , "277.18","D", "293.66",
@@ -39,7 +39,7 @@ class Program
         Console.WriteLine("Notes: " + string.Join(" ", altogetherNotes));
         Console.WriteLine("Naturals: " + string.Join(", ", onlyNaturals));
         Console.WriteLine("Sharps: " + string.Join(", ", onlySharps));
-        Console.WriteLine("Naturals sum: {0:f2}", sumNaturals.Sum());
-        Console.WriteLine("Sharps sum: {0:f2}", sumSharps.Sum());
+        Console.WriteLine("Naturals sum: {0}", sumNaturals.Sum());
+        Console.WriteLine("Sharps sum: {0}", sumSharps.Sum());
     }
 }

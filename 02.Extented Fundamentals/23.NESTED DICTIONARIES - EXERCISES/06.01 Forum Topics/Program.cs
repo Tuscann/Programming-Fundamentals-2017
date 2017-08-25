@@ -5,7 +5,7 @@ public class ForumTopics
 {
     static Dictionary<string, HashSet<string>> forumHistogram = new Dictionary<string, HashSet<string>>();
 
-    public static void Main()
+    public static void Main() // 100/100
     {
         string currentLine = Console.ReadLine();
 

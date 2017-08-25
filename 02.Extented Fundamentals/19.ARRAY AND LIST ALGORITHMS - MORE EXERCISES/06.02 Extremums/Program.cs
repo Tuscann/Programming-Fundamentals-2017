@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 public class Extremums
 {
-    public static void Main()
+    public static void Main()  // 30/100
     {
-        
         List<int> numbers = Console.ReadLine().Split(new char[] { ' ' },StringSplitOptions.RemoveEmptyEntries)
             .Select(int.Parse).ToList();
 
@@ -42,7 +40,6 @@ public class Extremums
                 numbers[i] = rotatedNumbers;
                 i--;
             }
-
         }
         return numbers;
     }
@@ -60,7 +57,6 @@ public class Extremums
                 numbers[i] = rotatedNumbers;
                 i--;
             }
-
         }
         return numbers;
     }

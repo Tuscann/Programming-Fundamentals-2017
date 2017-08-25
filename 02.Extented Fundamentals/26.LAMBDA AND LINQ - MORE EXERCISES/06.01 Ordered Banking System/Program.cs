@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class OrderedBankingSystem
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         var onlineBanking = new Dictionary<string, Dictionary<string, decimal>>();
         var enterData = Console.ReadLine().Split(" ->".ToCharArray(), StringSplitOptions.RemoveEmptyEntries).ToList();

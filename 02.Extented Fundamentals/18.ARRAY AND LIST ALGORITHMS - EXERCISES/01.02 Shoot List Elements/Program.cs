@@ -7,7 +7,7 @@ public class ShootListElements
         string userInput = Console.ReadLine();
 
         List<int> numbersToShoot = new List<int>();
-        userInput = ConsoleOutpute(userInput, numbersToShoot);
+        ConsoleOutpute(userInput, numbersToShoot);
     }
 
     private static string ConsoleOutpute(string userInput, List<int> numbersToShoot)
@@ -80,7 +80,7 @@ public class ShootListElements
         {
             sum += num;
         }
-        double averageSum = (double)sum / (double)len;
+        double averageSum = (double)sum / len;
 
         return averageSum;
     }

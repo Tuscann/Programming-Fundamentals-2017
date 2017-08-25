@@ -38,19 +38,18 @@ public class Program
                     }
                 }
 
-                if (searchedLenght < letters.Count)
+                if (searchedLenght >= letters.Count)
                 {
-                    continue;
-                }
-                foreach (int index in digits)
-                {
-                    if (index < letters.Count)
+                    foreach (int index in digits)
                     {
-                        char currentLetter = letters[index];
-                        decrypted.Append(currentLetter);
+                        if (index < letters.Count)
+                        {
+                            char currentLetter = letters[index];
+                            decrypted.Append(currentLetter);
+                        }
                     }
+                    Console.WriteLine($"{string.Join("", letters)} = {decrypted}");
                 }
-                Console.WriteLine($"{string.Join("", letters)} = {decrypted}");
             }
         }
     }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class CamelsBack
 {
-    public static void Main()
+    public static void Main() // 100/100
     {
         List<int> buildingsInTheCity = Console.ReadLine()
             .Split(new char[] { ' ' },StringSplitOptions.RemoveEmptyEntries)
@@ -39,7 +39,6 @@ public class CamelsBack
 
             result = $"{rounds} rounds \nremaining: {removeBuildings}";
         }
-
         return result;
     }
 
