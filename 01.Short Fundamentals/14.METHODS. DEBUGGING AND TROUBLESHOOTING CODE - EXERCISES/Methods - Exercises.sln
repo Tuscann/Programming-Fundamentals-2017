@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.00 Hello, Name!", "Methods - Exercises\01.00 Hello, Name!.csproj", "{FFA81E48-2CDD-4680-92E0-C192C5DD8808}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.01 Primes in Given Range", "07.01 Primes in Given Range\07.01 Primes in Given Range.csproj", "{B06FA0F2-9201-4809-87FF-89281725B59E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.01 Geometry Calculator", "11.01 Geometry Calculator\11.01 Geometry Calculator.csproj", "{C7F692E1-B132-4DF6-9FCF-AC2A43E6FB30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.01 Be Positive", "17.01 Be Positive\17.01 Be Positive.csproj", "{5B355115-A7F5-4A02-BCD7-CF76F6B74C04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{C7F692E1-B132-4DF6-9FCF-AC2A43E6FB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7F692E1-B132-4DF6-9FCF-AC2A43E6FB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7F692E1-B132-4DF6-9FCF-AC2A43E6FB30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B355115-A7F5-4A02-BCD7-CF76F6B74C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B355115-A7F5-4A02-BCD7-CF76F6B74C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B355115-A7F5-4A02-BCD7-CF76F6B74C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B355115-A7F5-4A02-BCD7-CF76F6B74C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

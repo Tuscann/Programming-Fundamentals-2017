@@ -1,41 +1,26 @@
 ﻿using System;
-class Program
+
+class Program // 100/100
 {
     static void Main()
     {
-        int number = int.Parse(Console.ReadLine());
-
-        if (number == 0 || number == 1)
-        {
-            Console.WriteLine(false);
-        }
-        else
-        {
-            if (isPrime(number))
-            {
-                Console.WriteLine(true);
-            }
-            else
-            {
-                Console.WriteLine(false);
-            }
-        }
+        long number = long.Parse(Console.ReadLine());
+        Console.WriteLine(IsPrime(number));
     }
 
-    private static bool isPrime(int n)
+    private static bool IsPrime(long number)
     {
-        int k = 2;
-        while (k * k <= n)
+        if (number == 1) return false;
+        if (number == 2) return true;
+        if (number % 2 == 0) return false;
+
+        int boundary = (int) Math.Floor(Math.Sqrt(number));
+
+        for (int i = 3; i <= boundary; i += 2)
         {
-            if (n % k == 0)
-            {
-                return false;
-            }
-            k++;
+            if (number % i == 0) return false;
         }
+
         return true;
     }
-
-
 }
-

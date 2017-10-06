@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 class FibonacciNumbers
 {
-    static void Main()
+    static void Main() // 100/100
     {
         int input = int.Parse(Console.ReadLine());
         Console.WriteLine(Fib(input));

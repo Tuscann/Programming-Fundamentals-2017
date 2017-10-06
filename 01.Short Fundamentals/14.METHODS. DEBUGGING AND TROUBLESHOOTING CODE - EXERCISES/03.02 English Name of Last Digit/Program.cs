@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 class Program
 {
-    static void Main()
+    static void Main() // 100/100
     {
         long num = long.Parse(Console.ReadLine());
         byte digit = (byte)Math.Abs(num % 10);

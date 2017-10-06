@@ -1,5 +1,5 @@
 ﻿using System;
-class Program
+class Program  // 100/100
 {
     static void ClosestPoint(double x1, double y1, double x2, double y2)
     {

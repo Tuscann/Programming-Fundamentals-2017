@@ -1,5 +1,5 @@
 ﻿using System;
-class Program
+class Program  // 100/100
 {
     static string lastDigit(long number)
     {

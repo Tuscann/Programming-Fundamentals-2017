@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main()
+    static void Main()  // 100/100
     {
         double point1X1 = double.Parse(Console.ReadLine());
         double point1Y1 = double.Parse(Console.ReadLine());

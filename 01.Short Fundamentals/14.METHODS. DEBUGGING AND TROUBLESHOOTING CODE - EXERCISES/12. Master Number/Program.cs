@@ -1,62 +1,54 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _12.Master_Number
+class MasterNumbers
 {
-    class MasterNumbers
+    static void Main()  // 100/100
     {
-        static void Main()
+        int input = int.Parse(Console.ReadLine());
+        for (int i = 1; i <= input; i++)
         {
-            int input = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= input; i++)
+            if (isSymetric(i))
             {
-                if (isSymetric(i))
+                if (holdEvenDigitAndDivisible(i))
                 {
-                    if (holdEvenDigitAndDivisible(i))
-                    {
-                        Console.WriteLine(i);
-                    }
+                    Console.WriteLine(i);
                 }
             }
         }
+    }
 
-        private static bool holdEvenDigitAndDivisible(int input)
+    private static bool holdEvenDigitAndDivisible(int input)
+    {
+        int digit = 0;
+        int sum = 0;
+        bool divisible = false;
+        bool evenDigit = false;
+        int len = input.ToString().Length;
+        for (int i = 0; i < len; i++)
         {
-            int digit = 0;
-            int sum = 0;
-            bool divisible = false;
-            bool evenDigit = false;
-            int len = input.ToString().Length;
-            for (int i = 0; i < len; i++)
+            digit = input % 10;
+            if (digit % 2 == 0)
             {
-                digit = input % 10;
-                if (digit % 2 == 0)
-                {
-                    evenDigit = true;
-                }
-                input /= 10;
-                sum += digit;
+                evenDigit = true;
             }
-            if (sum % 7 == 0) divisible = true;
-            if (divisible && evenDigit) return true;
-            else return false;
+            input /= 10;
+            sum += digit;
         }
+        if (sum % 7 == 0) divisible = true;
+        if (divisible && evenDigit) return true;
+        return false;
+    }
 
-        private static bool isSymetric(int input)
+    private static bool isSymetric(int input)
+    {
+        string str = input.ToString();
+        int length = input.ToString().Length;
+        for (int i = 0; i < length / 2; i++)
         {
-            string str = input.ToString();
-            int length = input.ToString().Length;
-            for (int i = 0; i < length / 2; i++)
+            if (str[i] != str[length - 1 - i])
             {
-                if (str[i] != str[length - 1 - i])
-                {
-                    return false;
-                }
+                return false;
             }
-            return true;
         }
+        return true;
     }
 }

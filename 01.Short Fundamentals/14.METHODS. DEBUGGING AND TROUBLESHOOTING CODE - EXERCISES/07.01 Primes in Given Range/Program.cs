@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 class PrimesInGivenRange
 {
-    static void Main()
+    static void Main()  // 100/100
     {
         long start = long.Parse(Console.ReadLine());
         long end = long.Parse(Console.ReadLine());
