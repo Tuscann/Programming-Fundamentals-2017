@@ -1,31 +1,28 @@
 ﻿using System;
-class Program
+namespace problem19TheaThePhotographer
 {
-    static void Main()
+    class Problem19TheaThePhotographer
     {
-        decimal firstN = decimal.Parse(Console.ReadLine());
-        decimal seccoundM = decimal.Parse(Console.ReadLine());
-        int thirdY = int.Parse(Console.ReadLine());
-        decimal start = firstN / 2;
-
-        int counter = 0;
-        while (true)
+        static void Main()
         {
-            firstN -= seccoundM;
-            counter++;
-            if (thirdY != 0)
-            {
-                if (start == firstN)
-                {
-                    firstN /= thirdY;
-                }
-            }
-            if (firstN < seccoundM)
-            {
-                break;
-            }
+            long pictures = long.Parse(Console.ReadLine());
+            long timeForFilter = long.Parse(Console.ReadLine());
+            long percentGodPictures = long.Parse(Console.ReadLine());
+            long timeForUpload = long.Parse(Console.ReadLine());
+
+            long filterTime = pictures * timeForFilter;
+            long godPictures = (long)Math.Ceiling(pictures * percentGodPictures / 100.0);
+            long timeUplouding = godPictures * timeForUpload;
+            long totaltime = filterTime + timeUplouding;
+
+            long day = totaltime / 86400;
+            long cas = totaltime % 86400;
+            long hours = cas / 3600;
+            long min = cas % 3600;
+            long minutes = min / 60;
+            long sec = min % 60;
+            Console.WriteLine($"{day}:{hours:D2}:{minutes:D2}:{sec:D2}");
+
         }
-        Console.WriteLine(Math.Floor(firstN));
-        Console.WriteLine(counter);
     }
 }
