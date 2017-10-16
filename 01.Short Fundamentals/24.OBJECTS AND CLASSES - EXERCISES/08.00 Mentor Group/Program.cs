@@ -1,92 +1,92 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;  // 60/100
+using System.Threading.Tasks;  // 100/100
 
-class Student
+namespace _8.Mentor_Group
 {
-    public string Name { get; set; }
-    public List<string> Comments { get; set; }
-    public List<DateTime> DatesAttend { get; set; }
-
-}// end class Student
-class Program
-{
-    static void Main(string[] args)
+    class Program
     {
-        List<Student> myStudentsList = new List<Student>();
-        Student myStudent = new Student();
-        List<DateTime> myDates = new List<DateTime>();
-        string str = Console.ReadLine().Trim();
-        while (!(str == "end of dates"))
+        static void Main()
         {
-             var arg = str.Split(' ').ToList();
-            myStudent.Name = arg[0];
-            if (arg.Count>1)
+            var students = new List<Student>();
+            string input = Console.ReadLine();
+            while (input != "end of dates")
             {
-                var dateStringAttend = arg[1].Split(',').ToList();
-           
-                foreach (var item in dateStringAttend)
+                var tokens = input.Split(new char[] { ' ', ',' }).ToArray();
+                var name = tokens[0];
+
+                List<DateTime> currDates  = new List<DateTime>();
+                foreach (var date in tokens.Skip(1))
                 {
-                    myDates.Add(DateTime.ParseExact(item, "dd/MM/yyyy", CultureInfo.InvariantCulture));
+                    var localTokens = date.Split('/').ToArray();
+                    int year = int.Parse(localTokens[2]);
+                    int month = int.Parse(localTokens[1]);
+                    int day = int.Parse(localTokens[0]);
+                    currDates.Add(new DateTime(year, month, day));
                 }
-                myStudent.DatesAttend = myDates;
+
+                if (students.Any(x=>x.name == name))
+                {
+                    students.Single(x => x.name == name).dates.AddRange(currDates);
+                }
+                else
+                {
+                    var currStudent = new Student(name);
+                    currStudent.dates.AddRange(currDates);
+                    students.Add(currStudent);
+                }
+                              
+                input = Console.ReadLine();
             }
-            myStudentsList.Add(myStudent);
-            myDates = new List<DateTime>();
-            myStudent = new Student();
-            str = Console.ReadLine();
-        }//end While end of dates reading
-        str = Console.ReadLine();
-        while (!(str == "end of comments"))
-        {
-            List<string> arg = str.Split('-').ToList();
-            var commentName = arg[0];
-            var commentNew = arg[1];
-           
-            foreach (var studentt in myStudentsList)
+
+            input = Console.ReadLine();
+            while(input != "end of comments")
             {
-                if (studentt.Name == commentName)
+                var tokens = input.Split('-').ToArray();
+                var name = tokens[0];
+                var comment = tokens[1];
+
+                if(students.Any(x=>x.name == name))
                 {
-                    if (studentt.Comments==null)
+                    var studentsWithNames = students.Where(x => x.name == name).ToArray();
+
+                    for (int i = 0; i < studentsWithNames.Length; i++)
                     {
-                        studentt.Comments = new List<string>();
-                    }
-                  //  var comment=commentNew;
-                    studentt.Comments.Add(commentNew);
-                }
-            }
-            str = Console.ReadLine();
-        }// end while Comments
-         List<Student> orderedByNameStudents=myStudentsList.OrderBy(s => s.Name).ToList();
-        foreach (var student  in orderedByNameStudents)
-        {
-  
-            Console.WriteLine(student.Name);
-            Console.WriteLine("Comments:");
-            List<string> listOfComments = student.Comments;
-             if (listOfComments!=null)
-             {
-                foreach (var comment in listOfComments)
-                {
-                   Console.WriteLine("- {0}", comment);
-                }
-             }
-            Console.WriteLine("Dates attended:");
-            if (student.DatesAttend!=null) 
-            {
-                List<DateTime> dati = student.DatesAttend.OrderBy(s => s.Date).ToList();
-                if (dati != null)
-                {
-                    foreach (var data in dati)
-                    {
-                        Console.WriteLine("-- " + data.ToString("dd/MM/yyyy"));
+                        studentsWithNames[i].comments.Add(comment);
                     }
                 }
+                input = Console.ReadLine();
             }
-         
-        }// end foreach
-    }//end Main
-}// end class Program
+
+            foreach (var student in students.OrderBy(x=>x.name))
+            {
+                Console.WriteLine(student.name);
+                Console.WriteLine("Comments:");
+                foreach (var comm in student.comments)
+                {
+                    Console.WriteLine($"- {comm}");
+                }
+                Console.WriteLine("Dates attended:");
+                foreach (var date in student.dates.OrderBy(x=>x))
+                {
+                    Console.WriteLine($"-- {date.ToString("dd/MM/yyyy")}");
+                }
+            }
+            //Console.ReadLine();
+        }
+    }
+
+    public class Student
+    {
+        public string name;
+        public List<string> comments = new List<string>();
+        public List<DateTime> dates = new List<DateTime>();
+
+        public Student(string Name)
+        {
+            name = Name;
+        }
+    }
+}
