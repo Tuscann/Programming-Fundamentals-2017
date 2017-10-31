@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Numerics;
-public class ConvertFromBaseNToBase10
+public class ConvertFromBaseNToBase10   // 100/100
 {
     public static void Main()
     {
