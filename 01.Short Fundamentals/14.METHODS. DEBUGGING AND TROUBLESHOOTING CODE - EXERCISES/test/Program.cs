@@ -1,28 +1,31 @@
 ﻿using System;
-namespace problem19TheaThePhotographer
+class Program
 {
-    class Problem19TheaThePhotographer
+    static void Main()
     {
-        static void Main()
+        string figure = Console.ReadLine();
+
+        if (figure == "square")
         {
-            long pictures = long.Parse(Console.ReadLine());
-            long timeForFilter = long.Parse(Console.ReadLine());
-            long percentGodPictures = long.Parse(Console.ReadLine());
-            long timeForUpload = long.Parse(Console.ReadLine());
-
-            long filterTime = pictures * timeForFilter;
-            long godPictures = (long)Math.Ceiling(pictures * percentGodPictures / 100.0);
-            long timeUplouding = godPictures * timeForUpload;
-            long totaltime = filterTime + timeUplouding;
-
-            long day = totaltime / 86400;
-            long cas = totaltime % 86400;
-            long hours = cas / 3600;
-            long min = cas % 3600;
-            long minutes = min / 60;
-            long sec = min % 60;
-            Console.WriteLine($"{day}:{hours:D2}:{minutes:D2}:{sec:D2}");
-
+            double firstNumber = double.Parse(Console.ReadLine());
+            Console.WriteLine("{0:0.000}", firstNumber * firstNumber);
+        }
+        else if (figure == "rectangle")
+        {
+            double firstNumber = double.Parse(Console.ReadLine());
+            double secondNumber = double.Parse(Console.ReadLine());
+            Console.WriteLine("{0:0.000}", firstNumber * secondNumber);
+        }
+        else if (figure == "circle")
+        {
+            double firstNumber = double.Parse(Console.ReadLine());
+            Console.WriteLine("{0:0.000}", (Math.PI) * (Math.Pow(firstNumber, 2)));
+        }
+        else if (figure == "triangle")
+        {
+            double firstNumber = double.Parse(Console.ReadLine());
+            double secondNumber = double.Parse(Console.ReadLine());
+            Console.WriteLine("{0:0.000}", firstNumber * secondNumber * 0.5);
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.00 Charity Marathon", "01.00 Charity Marathon\01.00 Charity Marathon.csproj", "{8EB654A9-773D-4155-A41F-032145FC3F66}"
 EndProject
@@ -16,6 +16,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.00 Roli the Coder", "04.00 Roli the Coder\04.00 Roli the Coder.csproj", "{8138B3CA-3409-4F15-809C-B8AEDB51EA56}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.03 NetherRealms", "03.03 NetherRealms\03.03 NetherRealms.csproj", "{7C21B3A8-6823-4336-A5E8-483E36EF1733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01 Roli the Coder", "04.01 Roli the Coder\04.01 Roli the Coder.csproj", "{A7070840-A4B8-4E5D-8B22-87C17F827B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.02 Roli the Coder", "04.02 Roli the Coder\04.02 Roli the Coder.csproj", "{72CBFD6F-3F2C-4E99-92A5-23523920B469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.03 Roli the Coder", "04.03 Roli the Coder\04.03 Roli the Coder.csproj", "{DD36D917-C632-4FA6-92DC-90C5A7302974}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{7C21B3A8-6823-4336-A5E8-483E36EF1733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C21B3A8-6823-4336-A5E8-483E36EF1733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C21B3A8-6823-4336-A5E8-483E36EF1733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7070840-A4B8-4E5D-8B22-87C17F827B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7070840-A4B8-4E5D-8B22-87C17F827B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7070840-A4B8-4E5D-8B22-87C17F827B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7070840-A4B8-4E5D-8B22-87C17F827B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CBFD6F-3F2C-4E99-92A5-23523920B469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CBFD6F-3F2C-4E99-92A5-23523920B469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CBFD6F-3F2C-4E99-92A5-23523920B469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CBFD6F-3F2C-4E99-92A5-23523920B469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD36D917-C632-4FA6-92DC-90C5A7302974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD36D917-C632-4FA6-92DC-90C5A7302974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD36D917-C632-4FA6-92DC-90C5A7302974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD36D917-C632-4FA6-92DC-90C5A7302974}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

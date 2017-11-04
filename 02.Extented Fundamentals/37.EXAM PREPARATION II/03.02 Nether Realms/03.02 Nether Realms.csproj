@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{21F3ECF5-34DA-4152-962C-88C6832A2968}</ProjectGuid>
+    <ProjectGuid>{0FC7716E-57FD-45A9-8F73-3506EEDF2291}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02._02_Convert_from_base_N_to_base_10</RootNamespace>
-    <AssemblyName>02.02 Convert from base-N to base-10</AssemblyName>
+    <RootNamespace>_03._02_Nether_Realms</RootNamespace>
+    <AssemblyName>03.02 Nether Realms</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

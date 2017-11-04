@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.00 Charity Marathon", "01.00 Charity Marathon\01.00 Charity Marathon.csproj", "{386AD55C-11A8-4DCC-B117-55FEC2C0FC83}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01 Nether Realms", "03.01 Nether Realms\03.01 Nether Realms.csproj", "{C0B125C8-9CEA-4407-BEB9-34330C12CADA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01 Roli The Coder", "04.01 Roli The Coder\04.01 Roli The Coder.csproj", "{5D41D8CD-ED60-4C21-B49A-A4943B58AFB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.02 Nether Realms", "03.02 Nether Realms\03.02 Nether Realms.csproj", "{0FC7716E-57FD-45A9-8F73-3506EEDF2291}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5D41D8CD-ED60-4C21-B49A-A4943B58AFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D41D8CD-ED60-4C21-B49A-A4943B58AFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D41D8CD-ED60-4C21-B49A-A4943B58AFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC7716E-57FD-45A9-8F73-3506EEDF2291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC7716E-57FD-45A9-8F73-3506EEDF2291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC7716E-57FD-45A9-8F73-3506EEDF2291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC7716E-57FD-45A9-8F73-3506EEDF2291}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,7 +7,7 @@
     <ProjectGuid>{0EE2C626-DA01-4129-9A48-68F5078176A0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_02._01_Convert_from_base_N_to_base_10</RootNamespace>
-    <AssemblyName>_02._01_Convert_from_base_N_to_base_10</AssemblyName>
+    <AssemblyName>02.01 Convert from base-N to base-10</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
